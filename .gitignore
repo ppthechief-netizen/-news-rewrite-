@@ -1,0 +1,25 @@
+# Ephemeral local artifacts
+storage/*
+storage/raw_html/
+storage/drafts/
+
+# Allow CI outputs
+!storage/
+!storage/final/
+!storage/final/**
+!storage/fixed/
+!storage/fixed/**
+!storage/json/
+!storage/json/**
+
+logs/*
+!logs/
+!logs/**
+
+__pycache__/
+*.pyc
+.env
+.Python
+*.egg-info/
+.venv/
+venv/

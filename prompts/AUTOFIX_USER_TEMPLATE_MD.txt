@@ -1,0 +1,20 @@
+Task: Auto-fix the DRAFT below to reduce similarity with ORIGINAL_SOURCE_TEXT while preserving facts.
+
+Constraints:
+- Keep the Writer template structure untouched.
+- Shorten or expand to 60–75% of ORIGINAL_SOURCE_TEXT length.
+- Break long sentences; vary syntax; replace phrases with synonyms; re-order paragraphs.
+- Maximum verbatim overlap: no string ≥ 10 consecutive words copied.
+- Quotes allowed but each ≤ 25 words.
+- British English, neutral tone.
+- If exclusive flag is true in VERIFIED_JSON, ensure the exact credit line is present; otherwise, remove any credit.
+
+Inputs:
+VERIFIED_JSON:
+<<<VERIFIED_JSON>>>
+
+ORIGINAL_SOURCE_TEXT:
+<<<ORIGINAL_SOURCE_TEXT>>>
+
+DRAFT:
+<<<DRAFT>>>

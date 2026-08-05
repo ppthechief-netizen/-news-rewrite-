@@ -1,0 +1,61 @@
+name: HK01 pipeline
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hk01-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Run pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          mkdir -p logs storage/final storage/fixed storage/json
+          python -m pipeline.run_once latest --n 3 | tee -a logs/runner.log
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hk01-outputs
+          path: |
+            logs/runner.log
+            storage/final
+            storage/fixed
+            storage/json
+      - name: Commit outputs back to repo
+        run: |
+          git config user.name "hk01-bot"
+          git config user.email "actions@github.com"
+          git add storage/final storage/fixed storage/json logs/runner.log || true
+          git commit -m "CI: update outputs" || true
+          git push

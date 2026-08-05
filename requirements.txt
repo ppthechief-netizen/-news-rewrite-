@@ -1,0 +1,14 @@
+playwright
+beautifulsoup4
+lxml
+readability-lxml
+python-dateutil
+tenacity
+pydantic
+typer
+httpx
+openai
+tiktoken
+simhash
+rapidfuzz
+python-dotenv

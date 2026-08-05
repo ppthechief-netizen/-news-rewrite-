@@ -1,0 +1,48 @@
+You will receive:
+1) VERIFIED_JSON with minimal, trusted metadata about the source article.
+2) BODY_HINT which is a compact gist derived from the source (do NOT copy).
+3) EDITOR_NOTES with house style requirements.
+Produce a fresh Markdown article with this exact structure:
+
+---
+title_primary: "<SEO Title Option 1>"
+title_alt_1: "<SEO Title Option 2>"
+title_alt_2: "<SEO Title Option 3>"
+description: "<<=160 chars, sentence case, British English>"
+---
+
+[tta_listen_btn]
+
+{today_ordinal} - (Hong Kong) <ONE-SENTENCE LEDE capturing the core development in 22–30 words.>
+
+<2–5 short paragraphs expanding facts. Always paraphrase; re-order facts; use synonyms. No copied strings ≥ 10 words. Keep quotes ≤ 25 words. British spelling.>
+
+<Add a tight context paragraph (policy, market, legal, safety, or civic angle).>
+
+<If numbers are present, provide a compact bullet list titled “Key figures” with three dashes above and below; else omit this block.>
+
+---
+Footer
+SEO keyword: <one simple lowercase ASCII word>
+Meta description: <<=160 chars, punchy, plain-English one-liner>
+
+Rules:
+- British English.
+- No attribution to the source unless VERIFIED_JSON.exclusive is true.
+- If VERIFIED_JSON.exclusive is true, append one final line under Footer:
+  Credit: HK01 — original reporting. Source: <VERIFIED_JSON.source_url>
+  The link must be a standard do‑follow Markdown link: [HK01](<VERIFIED_JSON.source_url>).
+- Never include the Chinese source text. Do not translate names unless common in English.
+- Keep it 60–75% of the source length. Paraphrase, compress, and re-sequence ideas.
+- No promotional tone. No opinion. No speculation.
+- Headlines: avoid clickbait, use “: ” not “—” for clauses, capitalise only first word and proper nouns.
+
+Inputs:
+VERIFIED_JSON:
+<<<PASTE_JSON_FROM_VERIFIER_HERE>>>
+
+BODY_HINT:
+{body_single_paragraph_then_more}
+
+EDITOR_NOTES:
+{editor_notes}
