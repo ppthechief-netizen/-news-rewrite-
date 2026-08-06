@@ -7,6 +7,13 @@ alwaysApply: true
 
 Before delivering any news rewrite, **read and match** the current Markdown house format. Prefer the structure used in this repo’s validated drafts and the user’s writer/validator prompts for the session. Also cross-check `prompts/WRITER_USER_TEMPLATE_MD.txt` when it does not conflict with the latest session rules.
 
+## Coverage first (non‑negotiable)
+
+- **Cover every material point** in the source notes / article: who, what, when, where, why/so‑what, key figures, named places, charges/sentences, official responses, and distinct reaction threads.
+- **Do not over‑abbreviate.** Paraphrase and tighten wording, but do **not** drop secondary facts, quotes (within the ≤25‑word rule), or context paragraphs to hit a short word count.
+- Length target is about **60–75%** of the source notes as a **soft upper guide**, not a reason to omit facts. If completeness pushes slightly over, prefer a fuller accurate piece; never ship a skeleton that skips points.
+- Follow the writer template flow: strong lede → short expanding paragraphs → a tight context paragraph (safety, civic, market, legal, or cultural) → optional **Key figures** block when numbers matter.
+
 ## Required skeleton
 
 ```markdown
@@ -24,19 +31,25 @@ description: "140–160 characters; British English; ASCII only."
 
 {short paragraphs separated by blank lines}
 
+---
+Key figures
+- …
+
 Footer
 SEO keyword: oneasciiword
 Meta description: 140–160 characters; British English; may mirror YAML description
 ```
+
+Omit the Key figures block only when the story has no meaningful numbers.
 
 ## Pre-delivery checks (do every time)
 
 1. **YAML**: exactly three `titles` items; each ASCII-only, ≤12 words, ends with `.`
 2. **description**: strictly **140–160** characters
 3. **Shortcode**: a line that is exactly `[tta_listen_btn]` immediately after the YAML closing `---`; no H1/`#` titles after it
-4. **Dateline**: first non-empty body line is `{Today ordinal} - ({City}) ` + content on the **same** line (e.g. `5th August 2026 - (Hong Kong) …`)
+4. **Dateline**: first non-empty body line is `{Today ordinal} - ({City}) ` + content on the **same** line (e.g. `6th August 2026 - (Hong Kong) …`)
 5. **City**: New York if outlet contains Dow Jones; Hong Kong for HK stories; else London (or infer from story)
-6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; length **60–70%** of source notes; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words
+6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; **all key source points retained**; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words
 7. **Hong Kong government officials**: do **not** invent English names from Chinese transliteration in the source. Look up the official English name (and post title) in the [Hong Kong Government Telephone Directory](https://www.directory.gov.hk/) before publishing. Use the directory’s Full Name form (e.g. `Miss Susana Maria D'ALMADA REMEDIOS`, Judge of the Court of First Instance of the High Court). Put that verified form in `verification.json` and the article body.
 8. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / trailing newline
 9. **Save** to `article_draft.md` (and `article_fixed.md` when fixing) only after the checklist passes
@@ -48,3 +61,4 @@ Meta description: 140–160 characters; British English; may mirror YAML descrip
 - Leave meta/description under 140 or over 160 characters
 - Put titles or `#` headings after `[tta_listen_btn]`
 - Guess judges’, officials’, or other civil servants’ English names from Chinese media copy without a directory.gov.hk (or equivalent official) check
+- Cut the piece down to a bare summary that leaves out named reactions, warnings, places, or related context present in the source
