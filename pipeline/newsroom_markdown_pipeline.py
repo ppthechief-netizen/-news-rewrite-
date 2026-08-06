@@ -1,34 +1,26 @@
+"""Deterministic Markdown post-processing for the newsroom CLI.
+
+Wraps the full implementation in the repo-root ``newsroom_markdown_pipeline.py``
+so ``cli/main.py`` can keep a stable import path and ``source_url`` / ``exclusive``
+signature while sharing footer, dateline, and style enforcement.
+"""
 from __future__ import annotations
 
-import re
+import importlib.util
+from pathlib import Path
+from typing import Optional
 
-FOOTER_PATTERN = re.compile(
-    r"(?s)---\s*Footer\s*SEO keyword:\s*([a-z]+)\s*Meta description:\s*(.{0,200})"
-)
+_ROOT_PATH = Path(__file__).resolve().parent.parent / "newsroom_markdown_pipeline.py"
+_SPEC = importlib.util.spec_from_file_location("newsroom_markdown_pipeline_root", _ROOT_PATH)
+if _SPEC is None or _SPEC.loader is None:
+    raise ImportError(f"Cannot load newsroom pipeline from {_ROOT_PATH}")
+_ROOT = importlib.util.module_from_spec(_SPEC)
+_SPEC.loader.exec_module(_ROOT)
 
-
-def ensure_footer_at_end(md: str) -> str:
-    if "Footer" not in md or "SEO keyword:" not in md or "Meta description:" not in md:
-        # Append a deterministic stub; writer/autofix should have produced it already
-        md = md.rstrip() + "\n\n---\nFooter\nSEO keyword: news\nMeta description: Concise British-English summary.\n"
-    return md
-
-
-def maybe_add_credit(md: str, source_url: str, exclusive: bool) -> str:
-    credit_line = f"Credit: HK01 — original reporting. Source: [HK01]({source_url})"
-    if exclusive:
-        # ensure it's directly under Footer block
-        if credit_line not in md:
-            md = md.rstrip() + f"\n{credit_line}\n"
-    else:
-        # remove any accidental credit
-        md = re.sub(r"^Credit: HK01 .*?$", "", md, flags=re.MULTILINE).rstrip() + "\n"
-    return md
-
-
-def clamp_meta_description(md: str) -> str:
-    md = re.sub(r"(Meta description:\s*)(.*)", lambda m: m.group(1) + m.group(2)[:160], md)
-    return md
+# Re-export helpers used by tests / callers
+ensure_footer_at_end = _ROOT.ensure_footer_at_end
+ensure_yaml_description_length = _ROOT.ensure_yaml_description_length
+clamp_meta_description = _ROOT.ensure_yaml_description_length
 
 
 def apply_deterministic_prefixes(
@@ -36,11 +28,23 @@ def apply_deterministic_prefixes(
     outlet: str,
     original_source_text: str,
     today_iso: str,
-    source_url: str,
-    exclusive: bool,
+    source_url: str = "",
+    exclusive: bool = False,
 ) -> str:
-    md = draft_md
-    md = ensure_footer_at_end(md)
-    md = clamp_meta_description(md)
-    md = maybe_add_credit(md, source_url=source_url, exclusive=exclusive)
-    return md
+    """
+    Apply house-style deterministic fixes, then ensure a Footer block with:
+      SEO keyword: <one lowercase ASCII word>
+      Meta description: <140–160 chars>
+    as the final content (plus optional exclusive Credit line).
+    """
+    verified_json = {
+        "exclusive": bool(exclusive),
+        "source_url": (source_url or "").strip(),
+    }
+    return _ROOT.apply_deterministic_prefixes(
+        draft_md=draft_md,
+        outlet=outlet or "",
+        original_source_text=original_source_text or "",
+        today_iso=today_iso,
+        verified_json=verified_json,
+    )

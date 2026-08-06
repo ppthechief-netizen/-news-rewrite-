@@ -1,0 +1,50 @@
+---
+description: Always validate news article Markdown structure before delivering rewrites
+alwaysApply: true
+---
+
+# News rewrite Markdown checklist
+
+Before delivering any news rewrite, **read and match** the current Markdown house format. Prefer the structure used in this repo’s validated drafts and the user’s writer/validator prompts for the session. Also cross-check `prompts/WRITER_USER_TEMPLATE_MD.txt` when it does not conflict with the latest session rules.
+
+## Required skeleton
+
+```markdown
+---
+titles:
+  - "Title one ends with a period."
+  - "Title two ends with a period."
+  - "Title three ends with a period."
+description: "140–160 characters; British English; ASCII only."
+---
+
+[tta_listen_btn]
+
+{ordinal date} - ({City}) {lede continues on the same line…}
+
+{short paragraphs separated by blank lines}
+
+Footer
+SEO keyword: oneasciiword
+Meta description: 140–160 characters; British English; may mirror YAML description
+```
+
+## Pre-delivery checks (do every time)
+
+1. **YAML**: exactly three `titles` items; each ASCII-only, ≤12 words, ends with `.`
+2. **description**: strictly **140–160** characters
+3. **Shortcode**: a line that is exactly `[tta_listen_btn]` immediately after the YAML closing `---`; no H1/`#` titles after it
+4. **Dateline**: first non-empty body line is `{Today ordinal} - ({City}) ` + content on the **same** line (e.g. `5th August 2026 - (Hong Kong) …`)
+5. **City**: New York if outlet contains Dow Jones; Hong Kong for HK stories; else London (or infer from story)
+6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; length **60–70%** of source notes; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words
+7. **Hong Kong government officials**: do **not** invent English names from Chinese transliteration in the source. Look up the official English name (and post title) in the [Hong Kong Government Telephone Directory](https://www.directory.gov.hk/) before publishing. Use the directory’s Full Name form (e.g. `Miss Susana Maria D'ALMADA REMEDIOS`, Judge of the Court of First Instance of the High Court). Put that verified form in `verification.json` and the article body.
+8. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / trailing newline
+9. **Save** to `article_draft.md` (and `article_fixed.md` when fixing) only after the checklist passes
+
+## Do not
+
+- Ship title_primary-only YAML if the session requires a `titles:` list
+- Quote the SEO keyword or wrap footer meta in quotes
+- Leave meta/description under 140 or over 160 characters
+- Put titles or `#` headings after `[tta_listen_btn]`
+- Guess judges’, officials’, or other civil servants’ English names from Chinese media copy without a directory.gov.hk (or equivalent official) check
