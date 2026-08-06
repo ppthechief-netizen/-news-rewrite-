@@ -54,8 +54,9 @@ Meta description: 140–160 characters; British English; may mirror YAML descrip
 5. **City**: New York if outlet contains Dow Jones; Hong Kong for HK stories; else London (or infer from story)
 6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; **all key source points retained**; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words; short paragraphs with one blank line between (Flower Market style)
 7. **Hong Kong government officials**: do **not** invent English names from Chinese transliteration in the source. Look up the official English name (and post title) in the [Hong Kong Government Telephone Directory](https://www.directory.gov.hk/) before publishing. Use the directory’s Full Name form (e.g. `Miss Susana Maria D'ALMADA REMEDIOS`, Judge of the Court of First Instance of the High Court). Put that verified form in `verification.json` and the article body.
-8. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / trailing newline
-9. **Save** to `article_draft.md` (and `article_fixed.md` when fixing) only after the checklist passes
+8. **Celebrities and public figures (non‑civil servants)**: do **not** invent English names by guessing Hong Kong or Mandarin romanisation from Chinese characters. Before translating, **search online** (reliable entertainment/news sources, official social accounts, Wikipedia where consistent) for the established English name. Mainland or overseas figures may use pinyin (e.g. `Yang Xiaojuan`, not a fabricated HK form such as `Yeung Siu-kuen`). Record the verified form and sources in `verification.json`.
+9. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / trailing newline
+10. **Save** to `article_draft.md` (and `article_fixed.md` when fixing) only after the checklist passes
 
 ## Do not
 
@@ -64,6 +65,7 @@ Meta description: 140–160 characters; British English; may mirror YAML descrip
 - Leave meta/description under 140 or over 160 characters
 - Put titles or `#` headings after `[tta_listen_btn]`
 - Guess judges’, officials’, or other civil servants’ English names from Chinese media copy without a directory.gov.hk (or equivalent official) check
+- Guess celebrity English names from Chinese characters without an online verification search
 - Cut the piece down to a bare summary that leaves out named reactions, warnings, places, or related context present in the source
 - Merge the body into long dense blocks unlike the Flower Market short-paragraph style
 - Write evenly proportioned paragraphs or three lookalike titles of matching length and structure
