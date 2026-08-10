@@ -1,0 +1,13 @@
+Verified: Mui Ka-fai; Mr Justice Chan Chung-wai; Tse Sui Luen Jewellery (TSL); HCCC109/2026; ISKKON Gems; R.A. Gem Centre Ltd; KGK Jewellery (HK) Ltd; Hong Kong Jockey Club betting account.
+
+titles:
+
+"TSL manager admits stealing ten million in diamonds."
+"Gambling habit saw average bets of three hundred thousand."
+"High Court holds Mui Ka-fai for Friday sentence." description: "A Tse Sui Luen procurement manager admitted stealing more than HK$10 million in diamonds to fund gambling averaging about HK$300,000 a month."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) A procurement manager who spent more than 30 years at Tse Sui Luen Jewellery admitted three counts of theft at the High Court today (HCCC109/2026) over diamonds worth more than HK$10 million, telling the company when he was being made redundant that he had for years taken stones on the firm's account and sold them to feed a gambling addiction that left his Jockey Club account averaging about HK$300,000 in bets a month.
+Mui Ka-fai, 63, pleaded to stealing 2,557.35 carats between 24th April 2023 and 22nd February 2024 from ISKKON Gems, R.A. Gem Centre Ltd and KGK Jewellery (HK) Ltd. Employed as procurement manager since 1988, he alone bought sub-0.08-carat melee for TSL, which required computer declarations and consignment records; stones were for inspection only and had to be returned, with mainland gem-testing also on his desk. When redundancy loomed in 2024 he seemed agitated; at a career meeting he confessed that from 2017 to 2023 he had taken about HK$10 million in diamonds in the company's name, kept US-dollar sale proceeds at home, banked proceeds into his Jockey Club account for betting, and when suppliers pressed for returns bought replacement stones in cash from other houses. Under caution he blamed greed and gambling; police found bags of melee worth about HK$2 million at his home plus consignment papers he had stamped for TSL. The firm says 31 consignment notes never entered its system, covering stones worth about HK$11.15 million; suppliers had trusted the long TSL relationship and not chased payment until the fraud surfaced. Defence counsel pleaded family pressure, divorce and remorse after a voluntary confession to the company, but Mr Justice Chan Chung-wai held he spoke up only after dismissal when exposure loomed, refused to treat it as a true surrender, remanded him and adjourned sentence to Friday 14th August.
+
+Footer SEO keyword: diamonds Meta description: A Tse Sui Luen procurement manager admitted stealing more than HK$10 million in diamonds to fund gambling averaging about HK$300,000 a month.
