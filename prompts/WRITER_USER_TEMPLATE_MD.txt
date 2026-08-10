@@ -15,11 +15,9 @@ description: "<<=160 chars, sentence case, British English>"
 
 {today_ordinal} - (Hong Kong) <ONE-SENTENCE LEDE capturing the core development in 22–30 words.>
 
-<2–5 short paragraphs expanding facts. Always paraphrase; re-order facts; use synonyms. No copied strings ≥ 10 words. Keep quotes ≤ 25 words. British spelling.>
+<Blank line, then at least 5 paragraphs (often 6–10+) expanding EVERY material fact until the body reaches ≥300 words (prefer 400+). Separate paragraphs with blank lines (required for Markdown). Always paraphrase; re-order facts; use synonyms. No copied strings ≥ 10 words. Keep quotes ≤ 25 words. British spelling. NEVER a one-paragraph summary.>
 
-<Add a tight context paragraph (policy, market, legal, safety, or civic angle).>
-
-<If numbers are present, provide a compact bullet list titled “Key figures” with three dashes above and below; else omit this block.>
+<Add a context paragraph (policy, market, legal, safety, or civic angle) when the source supports it — still a blank line above.>
 
 ---
 Footer
@@ -33,7 +31,8 @@ Rules:
   Credit: HK01 — original reporting. Source: <VERIFIED_JSON.source_url>
   The link must be a standard do‑follow Markdown link: [HK01](<VERIFIED_JSON.source_url>).
 - Never include the Chinese source text. Do not translate names unless common in English.
-- Keep it 60–75% of the source length. Paraphrase, compress, and re-sequence ideas.
+- Hard floor 300 body words (prefer 400+); soft length about 90–110% of the source when fuller is needed. Cover every material point; never ship a short stub or one-paragraph digest.
+- Body paragraphs MUST use blank lines between them. Never join paragraphs with a single newline only.
 - No promotional tone. No opinion. No speculation.
 - Headlines: avoid clickbait, use “: ” not “—” for clauses, capitalise only first word and proper nouns.
 

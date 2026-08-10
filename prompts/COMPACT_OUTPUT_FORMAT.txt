@@ -1,10 +1,28 @@
-Compact house format. NO blank lines between body paragraphs (single newline only).
+Elaborated multi-paragraph house format (STRICT).
 
-## Coverage (mandatory — apply to NEW articles only)
-- Capture EVERY material point in the source paragraphs: who/what/when/where/why, figures, quotes (≤25 words each), reactions, places, process detail, caveats, and secondary context.
-- Do NOT ship a shortened summary. English body must be at least as complete as the source; soft length about 90–110% of source note length after paraphrase (fuller is fine if needed for clarity).
-- Never cut facts to hit a short word count. Paraphrase tightly only after all points are in.
-- Skip any inbox id that already has `rewrites/copy-ready/*-<id>.md` — do not rewrite old articles.
+## Length (STRICT — every rewrite)
+- Body must be **at least 300 words** (count dateline through last body paragraph only).
+- Prefer **350–450+ words**; longer HK01 sources often need **500–900+**.
+- **Forbidden:** one-paragraph summaries, two-paragraph stubs, or any body under 300 words.
+- Soft guide ~**90–110%** of source when that exceeds the floor (fuller preferred). Cover every material point; never cut facts for brevity.
+
+## Paragraphs (STRICT — every rewrite)
+- Body paragraphs MUST be separated by a **blank line** (standard Markdown).
+- Single newlines alone are FORBIDDEN in the body: they render as one wall of text.
+- Minimum **5** body paragraphs; **6–10+** when the source has several themes.
+- Prefer short-to-medium wire paragraphs (often 2–5 sentences), one beat per paragraph — not mega-blocks and not a single digest block.
+- Canonical layout: see `.cursor/rules/markdown-style.mdc`.
+
+## Coverage (STRICT — every rewrite)
+- Cover EVERY material point in the source paragraphs: who/what/when/where/why, all figures, places, process steps, reactions, caveats, secondary context, and named quotes (each quote ≤25 words).
+- Do NOT summarise away detail. Walk the source end-to-end; if a fact, number, place, name, or reaction is in the notes, it must appear in the English body.
+- Never cut facts to hit a short word count; expand by elaborating source material, not by inventing.
+
+## Footer source link (STRICT — every rewrite)
+- After the Footer SEO/meta line, always end with an HK01 link on its own line:
+  - Exclusive: `Credit: HK01 — original reporting. Source: [HK01](<article_url>)`
+  - Non-exclusive: `Source: [HK01](<article_url>)`
+- Use the real article URL from inbox JSON (prefer `https://www.hk01.com/article/<id>`).
 
 Verified: <full English names>.
 
@@ -16,10 +34,20 @@ titles:
 [tta_listen_btn]
 
 <dateline lede>
-<next paragraph>
+
 <next paragraph>
 
+<next paragraph>
+
+<next paragraph>
+
+<further paragraphs with a blank line above each — body ≥300 words, prefer 400+>
+
 Footer SEO keyword: <word> Meta description: <140-160>
+Credit: HK01 — original reporting. Source: [HK01](<url>)
+OR
+Source: [HK01](<url>)
 
 Also write HTML twin with: <div style="font-family: Arial, Helvetica, sans-serif;"> … </div>
 Save newest markdown to article_draft.md and article_draft.html; mirror to rewrites/copy-ready/.
+After saving any NEW rewrite, run: `python -m utils.macos_notify --detail "<id or title>"` so the macOS popup shows exactly: HK01 local news rewrite

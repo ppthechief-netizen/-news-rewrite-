@@ -1,22 +1,36 @@
-# Copy-ready rewrites
-Arial HTML twins under `html/`.
-- [2026-08-10-liu-chang-says-china-counter-sanctions-test-hong-60377941.md](2026-08-10-liu-chang-says-china-counter-sanctions-test-hong-60377941.md) · [html](html/2026-08-10-liu-chang-says-china-counter-sanctions-test-hong-60377941.html) · id 60377941
-- [2026-08-10-yang-lishan-says-putonghua-is-now-a-baseline-for-60378397.md](2026-08-10-yang-lishan-says-putonghua-is-now-a-baseline-for-60378397.md) · [html](html/2026-08-10-yang-lishan-says-putonghua-is-now-a-baseline-for-60378397.html) · id 60378397
-- [2026-08-10-bishop-hill-timeline-shows-how-illegal-structures-60378468.md](2026-08-10-bishop-hill-timeline-shows-how-illegal-structures-60378468.md) · [html](html/2026-08-10-bishop-hill-timeline-shows-how-illegal-structures-60378468.html) · id 60378468
-- [2026-08-10-bishop-hill-clearance-invites-help-on-religious--60378462.md](2026-08-10-bishop-hill-clearance-invites-help-on-religious--60378462.md) · [html](html/2026-08-10-bishop-hill-clearance-invites-help-on-religious--60378462.html) · id 60378462
-- [2026-08-10-bishop-hill-clearance-will-add-table-tennis-tabl-60378454.md](2026-08-10-bishop-hill-clearance-will-add-table-tennis-tabl-60378454.md) · [html](html/2026-08-10-bishop-hill-clearance-will-add-table-tennis-tabl-60378454.html) · id 60378454
-- [2026-08-10-tsl-manager-admits-stealing-ten-million-in-diamo-60378460.md](2026-08-10-tsl-manager-admits-stealing-ten-million-in-diamo-60378460.md) · [html](html/2026-08-10-tsl-manager-admits-stealing-ten-million-in-diamo-60378460.html) · id 60378460
-- [2026-08-10-hottest-day-still-yellow-as-workers-await-rest-60378446.md](2026-08-10-hottest-day-still-yellow-as-workers-await-rest-60378446.md) · [html](html/2026-08-10-hottest-day-still-yellow-as-workers-await-rest-60378446.html) · id 60378446
-- [2026-08-10-oxfam-heat-monitors-flash-red-as-labour-stays-ye-60378411.md](2026-08-10-oxfam-heat-monitors-flash-red-as-labour-stays-ye-60378411.md) · [html](html/2026-08-10-oxfam-heat-monitors-flash-red-as-labour-stays-ye-60378411.html) · id 60378411
-- [2026-08-10-insurers-say-wang-fuk-payouts-wait-on-the-inquir-60375723.md](2026-08-10-insurers-say-wang-fuk-payouts-wait-on-the-inquir-60375723.md) · [html](html/2026-08-10-insurers-say-wang-fuk-payouts-wait-on-the-inquir-60375723.html) · id 60375723
-- [2026-08-10-eleven-democrats-cleared-for-top-court-appeal-60378381.md](2026-08-10-eleven-democrats-cleared-for-top-court-appeal-60378381.md) · [html](html/2026-08-10-eleven-democrats-cleared-for-top-court-appeal-60378381.html) · id 60378381
-- [2026-08-10-xia-baolong-urges-lawmakers-to-polish-putonghua-60378052.md](2026-08-10-xia-baolong-urges-lawmakers-to-polish-putonghua-60378052.md) · [html](html/2026-08-10-xia-baolong-urges-lawmakers-to-polish-putonghua-60378052.html) · id 60378052
-- [2026-08-10-bochk-series-unpacks-wills-trusts-and-life-cover-60376797.md](2026-08-10-bochk-series-unpacks-wills-trusts-and-life-cover-60376797.md) · [html](html/2026-08-10-bochk-series-unpacks-wills-trusts-and-life-cover-60376797.html) · id 60376797
-- [2026-08-10-government-takes-estate-fire-claim-rights-on-buy-60376340.md](2026-08-10-government-takes-estate-fire-claim-rights-on-buy-60376340.md) · [html](html/2026-08-10-government-takes-estate-fire-claim-rights-on-buy-60376340.html) · id 60376340
-- [2026-08-10-union-wants-multi-track-heat-alerts-for-outdoor--60378359.md](2026-08-10-union-wants-multi-track-heat-alerts-for-outdoor--60378359.md) · [html](html/2026-08-10-union-wants-multi-track-heat-alerts-for-outdoor--60378359.html) · id 60378359
-- [2026-08-10-yellow-work-heat-warning-issued-again-this-morni-60378353.md](2026-08-10-yellow-work-heat-warning-issued-again-this-morni-60378353.md) · [html](html/2026-08-10-yellow-work-heat-warning-issued-again-this-morni-60378353.html) · id 60378353
-- [2026-08-10-video-shows-bel-air-guard-felled-then-shielded-60378422.md](2026-08-10-video-shows-bel-air-guard-felled-then-shielded-60378422.md) · [html](html/2026-08-10-video-shows-bel-air-guard-felled-then-shielded-60378422.html) · id 60378422
-- [2026-08-10-video-shows-woman-stabbed-in-the-back-at-bel-air-60378421.md](2026-08-10-video-shows-woman-stabbed-in-the-back-at-bel-air-60378421.md) · [html](html/2026-08-10-video-shows-woman-stabbed-in-the-back-at-bel-air-60378421.html) · id 60378421
-- [2026-08-10-knife-attack-reported-at-bel-air-on-victoria-roa-60378383.md](2026-08-10-knife-attack-reported-at-bel-air-on-victoria-roa-60378383.md) · [html](html/2026-08-10-knife-attack-reported-at-bel-air-on-victoria-roa-60378383.html) · id 60378383
-- [2026-08-10-police-find-injured-cat-at-bel-air-suspect-s-fla-60378390.md](2026-08-10-police-find-injured-cat-at-bel-air-suspect-s-fla-60378390.md) · [html](html/2026-08-10-police-find-injured-cat-at-bel-air-suspect-s-fla-60378390.html) · id 60378390
-- [2026-08-10-parties-pitch-vouchers-and-home-sales-for-policy-60368140.md](2026-08-10-parties-pitch-vouchers-and-home-sales-for-policy-60368140.md) · [html](html/2026-08-10-parties-pitch-vouchers-and-home-sales-for-policy-60368140.html) · id 60368140
+# Copy-ready HK01 rewrites
+
+Total: 32
+
+- [60375643](2026-08-10-zhang-says-japan-india-rail-exposes-state-60375643.md)
+- [60378467](2026-08-10-four-pacific-storms-swirl-as-chan-hom-nea-60378467.md)
+- [60378378](2026-08-10-ai-models-flag-three-storms-near-hong-kong-60378378.md)
+- [60378513](2026-08-10-consumer-council-lists-eleven-portable-fan-60378513.md)
+- [60378512](2026-08-10-tesla-driver-denies-fatal-hit-and-run-in-c-60378512.md)
+- [60377579](2026-08-10-leung-says-summer-rest-has-no-place-for-m-60377579.md)
+- [60377487](2026-08-10-leung-wants-northern-metropolis-results-in-a-decade-60377487.md)
+- [60378495](2026-08-10-chan-yik-lam-wins-suspended-sentence-on-data-appe-60378495.md)
+- [60378500](2026-08-10-hsbc-launches-anti-scam-alliance-for-elderly-cli-60378500.md)
+- [60378486](2026-08-10-family-seeks-help-for-missing-fo-tan-hiker-tam-60378486.md)
+- [60378353](2026-08-10-yellow-work-heat-warning-issued-again-this-morni-60378353.md)
+- [60378397](2026-08-10-yang-lishan-says-putonghua-is-now-a-baseline-for-60378397.md)
+- [60378052](2026-08-10-xia-baolong-urges-lawmakers-to-polish-putonghua-60378052.md)
+- [60378421](2026-08-10-video-shows-woman-stabbed-in-the-back-at-bel-air-60378421.md)
+- [60378422](2026-08-10-video-shows-bel-air-guard-felled-then-shielded-60378422.md)
+- [60378359](2026-08-10-union-wants-multi-track-heat-alerts-for-outdoor--60378359.md)
+- [60378460](2026-08-10-tsl-manager-admits-stealing-ten-million-in-diamo-60378460.md)
+- [60378390](2026-08-10-police-find-injured-cat-at-bel-air-suspect-s-fla-60378390.md)
+- [60368140](2026-08-10-parties-pitch-vouchers-and-home-sales-for-policy-60368140.md)
+- [60378411](2026-08-10-oxfam-heat-monitors-flash-red-as-labour-stays-ye-60378411.md)
+- [60378401](2026-08-10-mainland-bans-hottest-outdoor-work-hong-kong-skips-60378401.md)
+- [60377941](2026-08-10-liu-chang-says-china-counter-sanctions-test-hong-60377941.md)
+- [60378383](2026-08-10-knife-attack-reported-at-bel-air-on-victoria-roa-60378383.md)
+- [60375723](2026-08-10-insurers-say-wang-fuk-payouts-wait-on-the-inquir-60375723.md)
+- [60378446](2026-08-10-hottest-day-still-yellow-as-workers-await-rest-60378446.md)
+- [60378502](2026-08-10-hkust-finds-most-workers-use-ai-weekly-60378502.md)
+- [60376340](2026-08-10-government-takes-estate-fire-claim-rights-on-buy-60376340.md)
+- [60378381](2026-08-10-eleven-democrats-cleared-for-top-court-appeal-60378381.md)
+- [60376797](2026-08-10-bochk-series-unpacks-wills-trusts-and-life-cover-60376797.md)
+- [60378468](2026-08-10-bishop-hill-timeline-shows-how-illegal-structures-60378468.md)
+- [60378454](2026-08-10-bishop-hill-clearance-will-add-table-tennis-tabl-60378454.md)
+- [60378462](2026-08-10-bishop-hill-clearance-invites-help-on-religious--60378462.md)

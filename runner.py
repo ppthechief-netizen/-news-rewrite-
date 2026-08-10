@@ -4,6 +4,7 @@ import random
 import subprocess
 import sys
 import time
+from typing import Optional
 
 from dotenv import load_dotenv
 
@@ -35,10 +36,29 @@ def run_once():
         log.write(f"=== run end exit={p.returncode} ===\n")
 
 
+def start_copy_ready_notifier() -> Optional[subprocess.Popen]:
+    """Background watcher: macOS popup 'HK01 local news rewrite' on new .md files."""
+    if os.getenv("HK01_NOTIFY", "1").strip() in {"0", "false", "no"}:
+        return None
+    log_path = BASE / "logs" / "notify_watch.log"
+    log_f = open(log_path, "a", encoding="utf-8")
+    return subprocess.Popen(
+        [sys.executable, "-m", "pipeline.watch_copy_ready_notify"],
+        cwd=str(BASE),
+        stdout=log_f,
+        stderr=log_f,
+        env=os.environ.copy(),
+        start_new_session=True,
+    )
+
+
 if __name__ == "__main__":
     (BASE / "logs").mkdir(exist_ok=True)
     interval_sec = int(os.getenv("HK01_INTERVAL_SEC", "900"))  # default 15 min
+    notifier = start_copy_ready_notifier()
     print(f"HK01 runner: every {interval_sec}s, fetch n={N}, mode={MODE}", flush=True)
+    if notifier:
+        print("HK01 notify watcher: popup 'HK01 local news rewrite' on new copy-ready files", flush=True)
     while True:
         run_once()
         # jitter 0–30s to be nice to the origin

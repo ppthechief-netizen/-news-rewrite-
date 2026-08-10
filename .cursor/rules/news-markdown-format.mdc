@@ -7,57 +7,74 @@ alwaysApply: true
 
 Before delivering any news rewrite, **read and match** the current Markdown house format. Prefer the structure used in this repo’s validated drafts and the user’s writer/validator prompts for the session. Also cross-check `prompts/WRITER_USER_TEMPLATE_MD.txt` when it does not conflict with the latest session rules.
 
-**Canonical body style:** compact wire paragraphs in a continuous block — proper paragraphs separated by a **single newline only** (no blank lines in the body), then Footer.
+**Canonical body style:** elaborated multi-paragraph newsroom Markdown — **never** a one-paragraph summary. Body paragraphs separated by blank lines. Minimum **300–400 words** (hard floor **300**; aim **400+** when the source supports it).
 
-## Paragraph rhythm (non‑negotiable)
+## Length floor (STRICT — non‑negotiable)
 
+- Body word count (dateline through last body paragraph, excluding Verified / titles / Footer / Source) must be **at least 300 words**.
+- Target **350–450+ words** for ordinary HK01 pieces; longer sources require fuller coverage (often **500–900+**).
+- **Forbidden:** one-paragraph digests, two-paragraph stubs, or any “summary only” rewrite under 300 words.
+- Before saving, **count the body words**. If under 300, expand with retained source facts — do not pad with fluff; unpack process, figures, quotes (≤25 words), places, and secondary context already in the notes.
+- Soft guide remains ~**90–110%** of source note length when that exceeds the floor (fuller is preferred). Coverage of every material point always beats brevity.
+
+## Multi-paragraph body (STRICT — non‑negotiable)
+
+- **Blank lines required:** separate every body paragraph with exactly **one blank line** (`\n\n`). A single newline alone is **not** a paragraph break — Markdown viewers will merge that into one wall of text.
+- **Never** deliver the body as one continuous paragraph or as newline-joined lines without blank lines.
+- **Minimum paragraph count:** at least **5** body paragraphs for every ordinary story; **6–10+** when the source has several themes (figures, process, quotes, reactions, caveats, forecasts).
+- **Wire rhythm:** several **short-to-medium** paragraphs (often **2–5 sentences** each), one idea or beat per paragraph — lede, background, detail A, detail B, official response, closing context. Do **not** pack half the article into one dense mega-paragraph.
 - **Do not** write body paragraphs of equal or near-equal length, or three matched title lines that read as the same shape repeated.
-- Let **content** set the cut: a punchy one-sentence lede, then shorter or longer follow-ups as facts require — mixed paragraph weights, not a template of two or three evenly sized blocks.
-- **No blank lines inside the body:** separate body paragraphs with a single newline only (continuous block after `[tta_listen_btn]`). Do not insert empty lines between paragraphs.
-- Short service alerts may be one strong lede plus one brief follow-up; do **not** pad a second paragraph to mirror the first.
+- Let **content** set the cut: a punchy one-sentence lede on the dateline line, then shorter or longer follow-ups as facts require — mixed paragraph weights.
 - Titles: three different angles and visibly different wording/length within the ≤12-word rule — not three parallel clones.
 
-## Coverage first (non‑negotiable)
+## Coverage (STRICT — non‑negotiable)
 
-- **Cover every material point** in the source notes / article: who, what, when, where, why/so‑what, named places, charges/sentences, official responses, and distinct reaction threads.
-- **Do not over‑abbreviate.** Paraphrase and tighten wording, but do **not** drop secondary facts, quotes (within the ≤25‑word rule), or context paragraphs to hit a short word count.
-- Length target is about **90–110%** of the source notes as a **soft guide** (fuller is fine). Cover every material point; never ship a shortened skeleton. Do not cut facts to hit a short word count.
-- Flow: strong one-sentence lede on the dateline line → expanding paragraphs of **uneven** length as the story needs (typically 2–6), each separated by a single newline → optional closing context → Footer. Optional **Key figures** only when a compact number list helps.
+- **Cover every material point** in the source notes / article: who, what, when, where, why/so‑what, named places, charges/sentences, official responses, distinct reaction threads, **all figures/percentages**, process steps, caveats, and secondary context.
+- **Do not over‑abbreviate.** Paraphrase, but **do not** drop secondary facts, quotes (within the ≤25‑word rule), or context paragraphs to hit a short word count.
+- Walk the source **end-to-end**. If a fact, number, place, name, or reaction is in the HK01 notes, it **must** appear in the English body.
+- **HK01 link required** at the end of every rewrite: `Source: [HK01](<url>)` (plus `Credit: HK01 — original reporting.` when exclusive).
+- Flow: strong one-sentence lede on the dateline line → blank line → expanding paragraphs of **uneven** length → blank lines between each → optional closing context → Footer.
 
 ## Required skeleton
 
 ```markdown
----
-titles:
-  - "Title one ends with a period."
-  - "Title two ends with a period."
-  - "Title three ends with a period."
-description: "140–160 characters; British English; ASCII only."
----
+Verified: Name One; Name Two.
 
+titles:
+
+"Title one ends with a period."
+"Title two ends with a period."
+"Title three ends with a period." description: "140–160 characters; British English; ASCII only."
 [tta_listen_btn]
 
 {ordinal date} - ({City}) {lede continues on the same line…}
 
-{proper paragraphs separated by single newlines only — no blank lines}
+{second paragraph — blank line above}
 
-Footer
-SEO keyword: oneasciiword
-Meta description: 140–160 characters; British English; may mirror YAML description
+{third paragraph — blank line above}
+
+{fourth paragraph — blank line above}
+
+{fifth+ paragraphs as needed — blank line above each; body ≥300 words, prefer 400+}
+
+Footer SEO keyword: oneasciiword Meta description: 140–160 characters; British English; may mirror description
+Source: [HK01](https://www.hk01.com/article/<id>)
 ```
+
+(If YAML frontmatter is used instead of the compact `titles:` block, keep the same blank-line body rules after `[tta_listen_btn]`.)
 
 ## Pre-delivery checks (do every time)
 
-1. **YAML**: exactly three `titles` items; each ASCII-only, ≤12 words, ends with `.`
+1. **Titles**: exactly three items; each ASCII-only, ≤12 words, ends with `.`
 2. **description**: strictly **140–160** characters
-3. **Shortcode**: a line that is exactly `[tta_listen_btn]` immediately after the YAML closing `---`; no H1/`#` titles after it
-4. **Dateline**: first non-empty body line is `{Today ordinal} - ({City}) ` + content on the **same** line (e.g. `6th August 2026 - (Hong Kong) …`)
+3. **Shortcode**: a line that is exactly `[tta_listen_btn]` immediately after titles/description (or YAML closing `---`); no H1/`#` titles after it
+4. **Dateline**: first body paragraph is `{Today ordinal} - ({City}) ` + content on the **same** line (e.g. `6th August 2026 - (Hong Kong) …`)
 5. **City**: New York if outlet contains Dow Jones; Hong Kong for HK stories; else London (or infer from story)
-6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; **all key source points retained**; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words; proper paragraphs separated by a **single newline only** (no blank lines in the body)
+6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; **all key source points retained**; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words; **paragraphs separated by blank lines**; **≥5 paragraphs**; **≥300 body words** (prefer **400+**)
 7. **Hong Kong government officials**: do **not** invent English names from Chinese transliteration in the source. Look up the official English name (and post title) in the [Hong Kong Government Telephone Directory](https://www.directory.gov.hk/) before publishing. Use the directory’s Full Name form (e.g. `Miss Susana Maria D'ALMADA REMEDIOS`, Judge of the Court of First Instance of the High Court). Put that verified form in `verification.json` and the article body.
 8. **Celebrities and public figures (non‑civil servants)**: do **not** invent English names by guessing Hong Kong or Mandarin romanisation from Chinese characters. Before translating, **search online** (reliable entertainment/news sources, official social accounts, Wikipedia where consistent) for the established English name. Mainland or overseas figures may use pinyin (e.g. `Yang Xiaojuan`, not a fabricated HK form such as `Yeung Siu-kuen`). Record the verified form and sources in `verification.json`.
-9. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / trailing newline
-10. **Save** to `article_draft.md` (and `article_fixed.md` when fixing) only after the checklist passes
+9. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / Source link / trailing newline
+10. **Save** to `article_draft.md` (and `article_fixed.md` when fixing) only after the checklist passes — including the word-count floor
 
 ## Do not
 
@@ -67,6 +84,7 @@ Meta description: 140–160 characters; British English; may mirror YAML descrip
 - Put titles or `#` headings after `[tta_listen_btn]`
 - Guess judges’, officials’, or other civil servants’ English names from Chinese media copy without a directory.gov.hk (or equivalent official) check
 - Guess celebrity English names from Chinese characters without an online verification search
-- Cut the piece down to a bare summary that leaves out named reactions, warnings, places, or related context present in the source
-- Insert blank lines between body paragraphs (use a single newline only)
+- Cut the piece down to a bare summary that leaves out named reactions, warnings, places, figures, or related context present in the source
+- Join body paragraphs with a **single newline only** (that renders as one paragraph — forbidden)
+- Ship a one-paragraph or two-paragraph stub, or any body under **300 words**
 - Write evenly proportioned paragraphs or three lookalike titles of matching length and structure

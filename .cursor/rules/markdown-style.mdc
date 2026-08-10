@@ -9,7 +9,41 @@ Use this file when the user asks for `@markdown-style.mdc`. It is the session ho
 
 Follow **both**:
 
-1. `.cursor/rules/news-markdown-format.mdc` — compact `titles:` (3), description 140–160, `[tta_listen_btn]`, dateline, proper paragraphs with **no blank lines in the body**, Footer SEO/meta, coverage first, official/celebrity name checks.
+1. `.cursor/rules/news-markdown-format.mdc` — compact `titles:` (3), description 140–160, `[tta_listen_btn]`, dateline, **elaborated multi-paragraph body** (blank lines; **≥5 paragraphs**; **≥300 words**, prefer **400+**), full source coverage, Footer SEO/meta, official/celebrity name checks.
 2. `.cursor/rules/news-rewriting.mdc` — British English, `US` not `U.S.`, `per cent`, times as `9.00pm`, ordinal dates, no CJK, no outlet attribution, varied paragraph lengths, verify names online.
 
-If the two conflict on skeleton, prefer **news-markdown-format.mdc** (YAML three titles + Footer).
+If the two conflict on skeleton, prefer **news-markdown-format.mdc**.
+
+## Hard length + paragraph rules (STRICT)
+
+- **Minimum 300 body words** — count before delivery. Prefer **350–450+**; long sources go longer.
+- **Minimum 5 blank-line-separated paragraphs** — never a one-paragraph summary.
+- One blank line after `[tta_listen_btn]`; blank line between every body paragraph.
+- Do **not** join paragraphs with a single newline (Markdown merges them into one wall of text).
+- Elaborate: unpack who/what/when/where, all figures, process, quotes (≤25 words), reactions — do not compress into a digest.
+
+### Example (layout only — real pieces must hit the word floor)
+
+```markdown
+Verified: Name One; Name Two.
+
+titles:
+
+"Title one ends with a period."
+"Title two ends with a period."
+"Title three ends with a period." description: "140–160 characters…"
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) Lede sentence on the dateline line.
+
+Second paragraph — new idea, blank line above.
+
+Third paragraph — blank line above.
+
+Fourth paragraph — blank line above.
+
+Fifth paragraph — blank line above (continue until ≥300–400 words and every source point is covered).
+
+Footer SEO keyword: keyword Meta description: 140–160 characters…
+Source: [HK01](https://www.hk01.com/article/<id>)
+```

@@ -23,6 +23,13 @@ Override with `HK01_INTERVAL_SEC` (seconds) and `HK01_FETCH_N` (how many latest 
 
 **Copy-ready files:** open `rewrites/copy-ready/` (see `INDEX.md` / `LATEST.md`) to copy finished Markdown.
 
+**macOS popup:** when a new rewrite lands in `rewrites/copy-ready/`, a popup says **HK01 local news rewrite**. Start the watcher alongside the runner:
+
+```bash
+python -m pipeline.watch_copy_ready_notify
+```
+
+
 ### If OpenAI returns region / 403 errors
 
 Direct `api.openai.com` calls are blocked in some territories (including Hong Kong). Two options:

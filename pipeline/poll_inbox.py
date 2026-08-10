@@ -89,6 +89,8 @@ async def poll(n: int = 10) -> list[pathlib.Path]:
         print("No new articles queued.")
     else:
         print(f"Queued {len(saved)} article(s) into {INBOX}")
+        # Notify that new source articles are ready for rewrite (popup after
+        # rewrite completion is handled by watch_copy_ready_notify).
     return saved
 
 
