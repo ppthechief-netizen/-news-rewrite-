@@ -1,0 +1,13 @@
+Verified: Fay Siu Sin-man; Association for the Rights of Industrial Accident Victims (ARIAV); Lam Chiu-ying; Labour Department; Hong Kong Observatory; White Dolphin; WBGT; Oxfam data referenced.
+
+titles:
+
+"Union wants multi-track heat alerts for outdoor work."
+"Hottest day on record still drew only a yellow alert."
+"Heat-stroke injury claims remain nearly impossible." description: "After Hong Kong's hottest day on record still drew only a yellow work heat alert, a labour rights group urged multi-track triggers for red and black."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) After peripheral sinking air from Super Typhoon White Dolphin made yesterday Hong Kong's hottest day since records began in 1884 — the Observatory headquarters hit a record 36.9C and Sheung Shui peaked near 39.8C around 3.20pm, the highest since automatic stations arrived in the 1980s — the Labour Department's work heat warning still stayed at the lowest yellow tier, prompting Association for the Rights of Industrial Accident Victims director Fay Siu Sin-man to urge dual- or multi-track triggers so whichever index reaches yellow, red or black first would lift the alert.
+Ms Siu noted public anger that the Guide on Preventing Heat Stroke at Work left yesterday's extremes on yellow, and that several former Observatory directors favour the globally common wet-bulb globe temperature; Oxfam-compiled figures last year showed WBGT hitting red on days when the Labour Department's index never did. Officials have replied that the local index folds in humidity and Accident and Emergency attendances and can lead — for example issuing yellow at only 30C when humidity is crushing — yet she argues authorities need not pick a single champion metric: any track that crosses a threshold first should raise the colour. She also said proving heat stroke as an occupational injury for compensation remains extremely hard, especially in deaths. Labour Department figures show about 20 to 30 heat-stroke work-injury cases a year recently but zero deaths recognised; ARIAV has handled sudden deaths under yellow alerts that were ultimately treated as heart disease — personal illness outside Employees' Compensation Ordinance cover. Families must endure autopsy consent, expert linkage of death to heat, and long litigation that can be ruinous without Legal Aid; unless the "sole causation" test that excludes personal disease factors is eased, she said, calling heat stroke a work injury remains hollow.
+
+Footer SEO keyword: heatwarning Meta description: After Hong Kong's hottest day on record still drew only a yellow work heat alert, a labour rights group urged multi-track triggers for red and black.

@@ -1,0 +1,25 @@
+Compact house format. NO blank lines between body paragraphs (single newline only).
+
+## Coverage (mandatory — apply to NEW articles only)
+- Capture EVERY material point in the source paragraphs: who/what/when/where/why, figures, quotes (≤25 words each), reactions, places, process detail, caveats, and secondary context.
+- Do NOT ship a shortened summary. English body must be at least as complete as the source; soft length about 90–110% of source note length after paraphrase (fuller is fine if needed for clarity).
+- Never cut facts to hit a short word count. Paraphrase tightly only after all points are in.
+- Skip any inbox id that already has `rewrites/copy-ready/*-<id>.md` — do not rewrite old articles.
+
+Verified: <full English names>.
+
+titles:
+
+"<T1.>"
+"<T2.>"
+"<T3.>" description: "<140-160>"
+[tta_listen_btn]
+
+<dateline lede>
+<next paragraph>
+<next paragraph>
+
+Footer SEO keyword: <word> Meta description: <140-160>
+
+Also write HTML twin with: <div style="font-family: Arial, Helvetica, sans-serif;"> … </div>
+Save newest markdown to article_draft.md and article_draft.html; mirror to rewrites/copy-ready/.

@@ -12,6 +12,12 @@ storage/drafts/
 !storage/json/
 !storage/json/**
 
+# Copy-ready rewrites for easy access
+!rewrites/
+!rewrites/**
+rewrites/source/
+rewrites/inbox/
+
 logs/*
 !logs/
 !logs/**

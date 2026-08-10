@@ -1,9 +1,12 @@
 """CSS selectors and patterns for article extraction."""
 
 BODY_SELECTORS = [
+    ".article-grid__content-section",
+    ".cmp-article-detail",
     "article [itemprop='articleBody']",
     "article .article-content",
     "main article",
+    "article",
     "section.article-content",
 ]
 

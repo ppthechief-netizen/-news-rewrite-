@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import json
 import pathlib
+import re
 from datetime import date
 from typing import Any, Dict, Optional
 
@@ -30,6 +31,7 @@ def _root() -> None:
 BASE = pathlib.Path(__file__).resolve().parent.parent
 PROMPTS = BASE / "prompts"
 STORAGE = BASE / "storage"
+COPY_READY = BASE / "rewrites" / "copy-ready"
 
 WRITER_TMPL = (PROMPTS / "WRITER_USER_TEMPLATE_MD.txt").read_text(encoding="utf-8")
 VALIDATOR_TMPL = (PROMPTS / "VALIDATOR_USER_TEMPLATE.txt").read_text(encoding="utf-8")
@@ -39,6 +41,38 @@ AUTOFIX_TMPL = (PROMPTS / "AUTOFIX_USER_TEMPLATE_MD.txt").read_text(encoding="ut
 def ensure_dirs():
     for d in ["raw_html", "json", "drafts", "fixed", "final"]:
         (STORAGE / d).mkdir(parents=True, exist_ok=True)
+    COPY_READY.mkdir(parents=True, exist_ok=True)
+
+
+def _slug_from_title(title: str, max_len: int = 48) -> str:
+    """ASCII slug for copy-ready filenames; falls back to 'article'."""
+    ascii_title = title.encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_title).strip("-").lower()
+    if not slug:
+        return "article"
+    return slug[:max_len].rstrip("-")
+
+
+def mirror_copy_ready(stem: str, final_md: str, source_title: str = "") -> pathlib.Path:
+    """Write a copy-ready Markdown file under rewrites/copy-ready/."""
+    today = date.today().isoformat()
+    slug = _slug_from_title(source_title)
+    path = COPY_READY / f"{today}-{slug}-{stem}.md"
+    path.write_text(final_md, encoding="utf-8")
+    # Keep a stable latest pointer (overwrite) for quick open/copy.
+    (COPY_READY / "LATEST.md").write_text(final_md, encoding="utf-8")
+    index_path = COPY_READY / "INDEX.md"
+    line = f"- [{today} · {source_title or stem}]({path.name})\n"
+    if index_path.exists():
+        existing = index_path.read_text(encoding="utf-8")
+        if path.name not in existing:
+            index_path.write_text(existing.rstrip() + "\n" + line, encoding="utf-8")
+    else:
+        index_path.write_text(
+            "# Copy-ready HK01 rewrites\n\nOpen any file below and copy the Markdown.\n\n" + line,
+            encoding="utf-8",
+        )
+    return path
 
 
 def call_llm(
@@ -94,7 +128,7 @@ def save(path: pathlib.Path, content: str):
 
 @APP.command()
 def latest(
-    n: int = typer.Option(3, help="Number of latest HK01 Hong Kong News items to process"),
+    n: int = typer.Option(10, help="Number of latest HK01 Hong Kong News items to process"),
     model: str = typer.Option("gpt-4o-mini"),
     paraphrase_strict: bool = typer.Option(
         True, help="If true, re-run AUTOFIX until originality thresholds pass"
@@ -110,6 +144,10 @@ def latest(
     links = [u for u in links if url_key(u) not in existing]
     today = date.today()
     today_ord = british_ordinal(today)
+
+    if not links:
+        print("No new HK01 articles to process.")
+        return
 
     for url in links:
         ad = asyncio.run(fetch_article(url))
@@ -136,7 +174,8 @@ def latest(
         )
 
         verified = make_verified_json(ad_json)
-        body_hint = " ".join(ad.body_paragraphs[:6])[:1400]
+        # Fuller gist so rewrites cover material points (still paraphrase-only).
+        body_hint = "\n\n".join(ad.body_paragraphs)[:4500]
 
         writer_prompt = build_writer_prompt(
             verified_json=verified,
@@ -185,7 +224,11 @@ def latest(
 
         save(STORAGE / "fixed" / f"{stem}.md", fixed_md)
         save(STORAGE / "final" / f"{stem}.md", final_md)
-        print(f"✔ Wrote storage/final/{stem}.md  |  Exclusive credit: {ad.exclusive}")
+        copy_path = mirror_copy_ready(stem, final_md, source_title=ad.title)
+        print(
+            f"✔ Wrote storage/final/{stem}.md + {copy_path.relative_to(BASE)}  |  "
+            f"Exclusive credit: {ad.exclusive}"
+        )
 
 
 if __name__ == "__main__":

@@ -10,14 +10,25 @@ A separate Cursor project that scrapes HK01 Hong Kong News, rewrites to British-
 4. In Cursor, add a task or run:
 
 ```bash
-python -m pipeline.run_once latest --n 3
+python -m pipeline.run_once latest --n 10
 ```
 
-Or loop every 10 minutes (override with `HK01_INTERVAL_SEC`):
+Or poll every **15 minutes** and rewrite every new story (skips already-finalised URLs):
 
 ```bash
 python runner.py
 ```
+
+Override with `HK01_INTERVAL_SEC` (seconds) and `HK01_FETCH_N` (how many latest links to check each cycle).
+
+**Copy-ready files:** open `rewrites/copy-ready/` (see `INDEX.md` / `LATEST.md`) to copy finished Markdown.
+
+### If OpenAI returns region / 403 errors
+
+Direct `api.openai.com` calls are blocked in some territories (including Hong Kong). Two options:
+
+1. Set `OPENAI_BASE_URL` in `.env` to a supported gateway, then `HK01_RUN_MODE=rewrite`.
+2. Keep `HK01_RUN_MODE=inbox` (default when set locally): the runner only queues `rewrites/inbox/*.json` every 15 minutes; rewrite those drafts in Cursor into `rewrites/copy-ready/`.
 
 ### Useful options
 

@@ -7,12 +7,13 @@ alwaysApply: true
 
 Before delivering any news rewrite, **read and match** the current Markdown house format. Prefer the structure used in this repo’s validated drafts and the user’s writer/validator prompts for the session. Also cross-check `prompts/WRITER_USER_TEMPLATE_MD.txt` when it does not conflict with the latest session rules.
 
-**Canonical body style:** the Seven Happiness / Flower Market cafe closure draft — short wire paragraphs with a blank line between each, then Footer (no forced “dense” mega-paragraphs).
+**Canonical body style:** compact wire paragraphs in a continuous block — proper paragraphs separated by a **single newline only** (no blank lines in the body), then Footer.
 
 ## Paragraph rhythm (non‑negotiable)
 
 - **Do not** write body paragraphs of equal or near-equal length, or three matched title lines that read as the same shape repeated.
-- Let **content** set the cut: a punchy one-sentence lede, then shorter or longer follow-ups as facts require — like Flower Market (mixed paragraph weights), not a template of two or three evenly sized blocks.
+- Let **content** set the cut: a punchy one-sentence lede, then shorter or longer follow-ups as facts require — mixed paragraph weights, not a template of two or three evenly sized blocks.
+- **No blank lines inside the body:** separate body paragraphs with a single newline only (continuous block after `[tta_listen_btn]`). Do not insert empty lines between paragraphs.
 - Short service alerts may be one strong lede plus one brief follow-up; do **not** pad a second paragraph to mirror the first.
 - Titles: three different angles and visibly different wording/length within the ≤12-word rule — not three parallel clones.
 
@@ -20,8 +21,8 @@ Before delivering any news rewrite, **read and match** the current Markdown hous
 
 - **Cover every material point** in the source notes / article: who, what, when, where, why/so‑what, named places, charges/sentences, official responses, and distinct reaction threads.
 - **Do not over‑abbreviate.** Paraphrase and tighten wording, but do **not** drop secondary facts, quotes (within the ≤25‑word rule), or context paragraphs to hit a short word count.
-- Length target is about **60–75%** of the source notes as a **soft upper guide**, not a reason to omit facts. If completeness pushes slightly over, prefer a fuller accurate piece; never ship a skeleton that skips points.
-- Flow: strong one-sentence lede on the dateline line → expanding paragraphs of **uneven** length as the story needs (typically 2–6) → optional closing context → Footer. Optional **Key figures** only when a compact number list helps; omit when the Flower Market-style prose already carries the figures.
+- Length target is about **90–110%** of the source notes as a **soft guide** (fuller is fine). Cover every material point; never ship a shortened skeleton. Do not cut facts to hit a short word count.
+- Flow: strong one-sentence lede on the dateline line → expanding paragraphs of **uneven** length as the story needs (typically 2–6), each separated by a single newline → optional closing context → Footer. Optional **Key figures** only when a compact number list helps.
 
 ## Required skeleton
 
@@ -38,7 +39,7 @@ description: "140–160 characters; British English; ASCII only."
 
 {ordinal date} - ({City}) {lede continues on the same line…}
 
-{short paragraphs separated by blank lines}
+{proper paragraphs separated by single newlines only — no blank lines}
 
 Footer
 SEO keyword: oneasciiword
@@ -52,7 +53,7 @@ Meta description: 140–160 characters; British English; may mirror YAML descrip
 3. **Shortcode**: a line that is exactly `[tta_listen_btn]` immediately after the YAML closing `---`; no H1/`#` titles after it
 4. **Dateline**: first non-empty body line is `{Today ordinal} - ({City}) ` + content on the **same** line (e.g. `6th August 2026 - (Hong Kong) …`)
 5. **City**: New York if outlet contains Dow Jones; Hong Kong for HK stories; else London (or infer from story)
-6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; **all key source points retained**; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words; short paragraphs with one blank line between (Flower Market style)
+6. **Body**: British spelling; `US` / `US-` compounds (never `U.S.` / `USA`); times as `3pm` / `3.00pm`; dates as ordinal + Month + Year; **all key source points retained**; no outlet/source attribution unless exclusive credit required; no CJK; quotes ≤25 words; proper paragraphs separated by a **single newline only** (no blank lines in the body)
 7. **Hong Kong government officials**: do **not** invent English names from Chinese transliteration in the source. Look up the official English name (and post title) in the [Hong Kong Government Telephone Directory](https://www.directory.gov.hk/) before publishing. Use the directory’s Full Name form (e.g. `Miss Susana Maria D'ALMADA REMEDIOS`, Judge of the Court of First Instance of the High Court). Put that verified form in `verification.json` and the article body.
 8. **Celebrities and public figures (non‑civil servants)**: do **not** invent English names by guessing Hong Kong or Mandarin romanisation from Chinese characters. Before translating, **search online** (reliable entertainment/news sources, official social accounts, Wikipedia where consistent) for the established English name. Mainland or overseas figures may use pinyin (e.g. `Yang Xiaojuan`, not a fabricated HK form such as `Yeung Siu-kuen`). Record the verified form and sources in `verification.json`.
 9. **Footer last**: unquoted `SEO keyword: word` (`^[a-z0-9]+$`) and `Meta description:` **140–160** chars; nothing after except optional exclusive Credit line / trailing newline
@@ -67,5 +68,5 @@ Meta description: 140–160 characters; British English; may mirror YAML descrip
 - Guess judges’, officials’, or other civil servants’ English names from Chinese media copy without a directory.gov.hk (or equivalent official) check
 - Guess celebrity English names from Chinese characters without an online verification search
 - Cut the piece down to a bare summary that leaves out named reactions, warnings, places, or related context present in the source
-- Merge the body into long dense blocks unlike the Flower Market short-paragraph style
+- Insert blank lines between body paragraphs (use a single newline only)
 - Write evenly proportioned paragraphs or three lookalike titles of matching length and structure

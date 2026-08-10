@@ -1,0 +1,14 @@
+Verified: Karina Fan; Tang Chi Wing; Ngai Chi-wai; Bank of China (Hong Kong) Private Wealth; BOC Life; Wills Ordinance.
+
+titles:
+
+"BOCHK series unpacks wills, trusts and life cover."
+"Joint accounts alone cannot replace a proper will."
+"Trusts and life policies framed as family protection." description: "Bank of China (Hong Kong) private-wealth talks unpack wills, trusts and life cover, warning joint accounts alone cannot replace proper succession plans."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) Bank of China (Hong Kong) Private Wealth has launched a four-part dialogue series, Think Tank · Succession, hosted by veteran financial broadcaster Karina Fan, to walk viewers through estate tools before family crises force rushed decisions.
+Solicitor Tang Chi Wing stresses succession is a legal process: assets in a deceased person's name — bank accounts, property, shares or MPF — generally need probate, and informal "joint forever" arrangements or joint accounts do not make a will unnecessary. He rejects the idea that trusts are only for the ultra-rich with hundreds of millions; anyone with a flat or savings who cares about dependants should learn the toolkit early. Wills under the Wills Ordinance are simple, flexible and relatively cheap for clear families and straightforward estates, but they take effect only on death, cannot manage assets or risks in life, and may fail if formalities are wrong or be partly rewritten for certain dependants under the law. Trusts he likens to a multi-function remote — settlors can set investment style, payout timing and beneficiaries across generations, often sidestepping probate delay and shielding assets from marital or debt claims against family members — at the cost of heavier legal structure and ongoing fees.
+BOC Life's Ngai Chi-wai adds that modern life cover can blend death benefit, savings, investment and succession aims, with approved claims paid to named beneficiaries once papers clear — often faster than waiting on probate for living costs. Policyholders may change insured lives or name backups where product rules and insurer approval allow, and can stage how beneficiaries receive money, but they carry insurer credit risk and early surrender can return far less than premiums paid. Both warn Hong Kong-mainland and remarried families often founder less on sibling greed than on incomplete records and overseas assets with no paper trail, disputes that can drag for years; life insurance is one tile in a wider plan, and generations usually need professionals to surface needs, costs and product risk before picking tools. The series is general information only and does not constitute advice or an offer outside jurisdictions where distribution would break the law.
+
+Footer SEO keyword: succession Meta description: Bank of China (Hong Kong) private-wealth talks unpack wills, trusts and life cover, warning joint accounts alone cannot replace proper succession plans.

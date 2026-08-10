@@ -40,8 +40,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          mkdir -p logs storage/final storage/fixed storage/json
-          python -m pipeline.run_once latest --n 3 | tee -a logs/runner.log
+          mkdir -p logs storage/final storage/fixed storage/json rewrites/copy-ready
+          python -m pipeline.run_once latest --n 10 | tee -a logs/runner.log
       - name: Upload artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -52,10 +52,11 @@ jobs:
             storage/final
             storage/fixed
             storage/json
+            rewrites/copy-ready
       - name: Commit outputs back to repo
         run: |
           git config user.name "hk01-bot"
           git config user.email "actions@github.com"
-          git add storage/final storage/fixed storage/json logs/runner.log || true
+          git add storage/final storage/fixed storage/json rewrites/copy-ready logs/runner.log || true
           git commit -m "CI: update outputs" || true
           git push

@@ -1,0 +1,15 @@
+---
+description: Canonical markdown style pointer for news rewrites (alias for house format)
+alwaysApply: false
+---
+
+# Markdown style for news rewrites
+
+Use this file when the user asks for `@markdown-style.mdc`. It is the session house style.
+
+Follow **both**:
+
+1. `.cursor/rules/news-markdown-format.mdc` — compact `titles:` (3), description 140–160, `[tta_listen_btn]`, dateline, proper paragraphs with **no blank lines in the body**, Footer SEO/meta, coverage first, official/celebrity name checks.
+2. `.cursor/rules/news-rewriting.mdc` — British English, `US` not `U.S.`, `per cent`, times as `9.00pm`, ordinal dates, no CJK, no outlet attribution, varied paragraph lengths, verify names online.
+
+If the two conflict on skeleton, prefer **news-markdown-format.mdc** (YAML three titles + Footer).
