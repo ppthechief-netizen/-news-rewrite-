@@ -1,7 +1,15 @@
 # Copy-ready HK01 rewrites
 
-Total: 32
+Total: 40
 
+- [60378657](2026-08-10-starving-poodle-found-yau-ma-tei-eviction-60378657.md)
+- [60378663](2026-08-10-tvb-plans-ai-compute-venture-tseung-kwan-o-60378663.md)
+- [60378662](2026-08-10-ma-says-china-will-win-us-ai-race-60378662.md)
+- [60378675](2026-08-10-ma-says-hong-kong-malaysia-deeply-intertwined-60378675.md)
+- [60378641](2026-08-10-yau-tong-solar-battery-arrow-board-fire-60378641.md)
+- [60378637](2026-08-10-eighty-thousand-flats-minor-basic-housing-works-60378637.md)
+- [60378636](2026-08-10-man-admits-social-worker-filter-scam-elders-60378636.md)
+- [60378640](2026-08-10-infant-critical-flu-septic-shock-seventh-case-60378640.md)
 - [60375643](2026-08-10-zhang-says-japan-india-rail-exposes-state-60375643.md)
 - [60378467](2026-08-10-four-pacific-storms-swirl-as-chan-hom-nea-60378467.md)
 - [60378378](2026-08-10-ai-models-flag-three-storms-near-hong-kong-60378378.md)

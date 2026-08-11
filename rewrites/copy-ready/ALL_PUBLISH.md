@@ -940,3 +940,125 @@ Mumbai–Ahmedabad may yet open a stretch before some election as a ribbon-cutti
 Footer SEO keyword: indiarail Meta description: Zhang Yuanshen argues Mumbai-Ahmedabad high-speed rail is stuck by Indian land law, Shinkansen culture gaps and Indo-Pacific politics today.
 Credit: HK01 — original reporting. Source: [HK01](https://www.hk01.com/article/60375643)
 
+---
+
+## 33. 60378640 — `2026-08-10-infant-critical-flu-septic-shock-seventh-case-60378640.md`
+
+Verified: Dr. TSUI Lok Kin, Edwin, JP; Centre for Health Protection; Department of Health; Queen Elizabeth Hospital.
+
+titles:
+
+"Infant critical with flu and septic shock."
+"Seventh serious child flu case since June."
+"CHP says influenza activity remains high." description: "A 20-month-old boy is critical with influenza A and septic shock, the seventh serious child case since June as local flu activity stays high."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) Health authorities are investigating a serious influenza A case in a previously healthy 20-month-old boy who remains in critical condition after developing septic shock.
+
+The Department of Health said the Centre for Health Protection is looking into the case today, 10th August. The infant developed a fever from 7th August and was taken to a private clinic the next day. He suffered convulsions at the clinic and was sent at once to the accident and emergency department at Queen Elizabeth Hospital.
+
+Checks there found his blood pressure was low, and he was admitted to the hospital's paediatric intensive care unit. Laboratory tests on a respiratory sample confirmed influenza A. Clinicians diagnosed influenza A complicated by septic shock. He is still in hospital and his condition is critical.
+
+Preliminary inquiries show the boy had not received the 2025/26 seasonal influenza vaccine and had not travelled during the incubation period. One household contact recently had upper respiratory symptoms, tested positive for influenza on a rapid antigen test, had only a mild illness that did not require admission, and has since recovered. The centre said investigations continue.
+
+Controller of the Centre for Health Protection Dr. TSUI Lok Kin, Edwin, JP said the latest surveillance figures show influenza activity remains high. Last week, 9.94 per cent of respiratory samples tested positive for influenza viruses, and the influenza-related admission rate at public hospitals was 0.73 per 10,000 population.
+
+The main influenza detections were influenza A (H3) and influenza A (H1), each accounting for 45 per cent, with influenza B making up the remaining 10 per cent. Dr Tsui said these strains are similar to those circulating elsewhere in the world. The influenza A (H3) viruses belong to subclade K, which has circulated globally since August last year, with no evidence that it causes more severe disease.
+
+He noted that the World Health Organization has already published recommended composition for 2026/27 northern hemisphere influenza vaccines, and manufacturers are producing shots for use later this year. The government has finished procurement for the 2026/27 Seasonal Influenza Vaccination Programme and is preparing arrangements. He urged schools and parents to join next season's Seasonal Influenza Vaccination School Outreach Programme.
+
+Parents were reminded that influenza in children can worsen rapidly. They should watch for breathing difficulty, wheezing, bluish lips, chest pain, confusion, persistent fever or convulsions, and go to an emergency department at once if a sick child deteriorates. Anyone with respiratory symptoms should seek care promptly. Those living with high-risk people — children, older adults, or people with chronic illness or weak immunity — should wear a surgical mask at home. Other precautions include cleaning frequently touched surfaces, hand hygiene and keeping indoor air circulating.
+
+Footer SEO keyword: infantflu Meta description: A 20-month-old boy is critical with influenza A and septic shock, the seventh serious child case since June as local flu activity stays high.
+Credit: HK01 — original reporting. Source: [HK01](https://www.hk01.com/article/60378640)
+
+---
+
+## 34. 60378636 — `2026-08-10-man-admits-social-worker-filter-scam-elders-60378636.md`
+
+Verified: Leung Kam-chiu; Chan Mau-cheung; District Court; Social Welfare Department.
+
+titles:
+
+"Man admits posing as social worker in filter scam."
+"Estate elders charged nearly three thousand for filters."
+"Co-accused installer denies fraud and faces trial." description: "An unemployed man admits eight fraud counts after posing as a social worker to sell water filters to estate elderly for nearly HK$3,000 apiece."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) An unemployed man has admitted eight counts of fraud after allegedly posing as a social worker and telling elderly public-housing tenants that the Social Welfare Department would install water filters free of charge.
+
+The case (DCCC736/2025) was heard in the District Court today, 10th August. First defendant Leung Kam-chiu, 40, and second defendant Chan Mau-cheung, 65, each face ten counts of fraud. Mr Leung pleaded guilty to eight counts.
+
+According to the admitted facts for the first defendant, between 19th July and 4th October 2024 he repeatedly told older residents of different estates that he was a social worker and that the department would fit free water filters. He then demanded about HK$3,000, saying the money would later be refunded to their bank accounts by cheque or transfer.
+
+On 5th October 2024 one woman went to a community centre to apply for a refund and realised she had been cheated, then reported the matter to police. Officers later identified the second defendant from closed-circuit television and arrested him for obtaining property by deception.
+
+A search of Mr Chan's phone found exchanges with someone called "Boss Chiu", who sent addresses of public estates and entrance gate codes, plus messages such as "Be careful when you work, safety first" and "Nothing has gone wrong for so long, has it?" Mr Leung was arrested at his home on 10th October the same year.
+
+Police searching the flat found water filters, filter cartridges, eighteen completed installation registration forms, a "Water Source" staff card and leaflets. Prosecutors say Mr Chan went to the elders' homes only after Mr Leung had left, and installed the filters.
+
+Under caution, Mr Chan said he met "Ah Chiu" in July 2024 and knew he was "cheating old people of money" by installing filters. He said he only fitted the units and received HK$320 each time. He agreed Mr Leung was cheating people because the filter was not worth HK$3,000. Mr Chan denies the charges and the case continues to trial on the counts he contests.
+
+Footer SEO keyword: filterscam Meta description: An unemployed man admits eight fraud counts after posing as a social worker to sell water filters to estate elderly for nearly HK$3,000 apiece.
+Source: [HK01](https://www.hk01.com/article/60378636)
+
+---
+
+## 35. 60378637 — `2026-08-10-eighty-thousand-flats-minor-basic-housing-works-60378637.md`
+
+Verified: Ms. HO Wing Yin, Winnie, JP; Housing Bureau; Housing Authority; Basic Housing Units.
+
+titles:
+
+"Eighty thousand flats need only minor basic-housing works."
+"Over forty per cent of target units already registered."
+"Ho urges owners to register before fee waiver deadline." description: "Housing Secretary Winnie Ho says about 80,000 subdivided flats need only minor works for Basic Housing Unit standards, with over 40 per cent already applied."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) Housing Secretary Ms. HO Wing Yin, Winnie, JP said roughly 80,000 of Hong Kong's subdivided flats should need only small-scale alterations to meet Basic Housing Unit minimum standards, and more than 40 per cent of that group have already applied to register.
+
+Writing on social media today, 10th August, she said registration for Basic Housing Units began on 1st March this year. Hong Kong has about 110,000 subdivided units in total. A rough estimate puts about 70 per cent — some 80,000 — as needing only minor works to comply, and she expects those dwellings to form the main future supply of Basic Housing Units.
+
+More than 34,000 subdivided units have already submitted registration applications, accounting for over 40 per cent of the estimated 80,000 that need only small changes. She described the progress as satisfactory.
+
+The Housing Bureau today held a Basic Housing Unit system experience-sharing session at Housing Authority headquarters. More than 100 people attended from professional institutes, estate agency and property management circles, construction subcontractors, volunteer groups, the legal sector, subdivided-unit district service teams, and owner representatives.
+
+They reviewed more than five months of practical experience under the scheme, common questions and explanations, and shared cases of sample-room conversions and units that have already gained certification.
+
+Ms Ho encouraged owners of unregistered subdivided flats to register soon, both to secure a three-year grace period to bring units up to standard and to catch a fee waiver. Owners who register on or before 31st August this year can have the HK$3,000 certification application fee for each Basic Housing Unit waived if they complete the process on or before 28th February 2029.
+
+The message underlines that the bulk of the city's subdivided stock is being steered toward a regulated Basic Housing Unit pathway rather than wholesale clearance, provided owners act on registration, minor works and certification within the published windows.
+
+Footer SEO keyword: basichousing Meta description: Housing Secretary Winnie Ho says about 80,000 subdivided flats need only minor works for Basic Housing Unit standards, with over 40 per cent already applied.
+Source: [HK01](https://www.hk01.com/article/60378637)
+
+---
+
+## 36. 60378641 — `2026-08-10-yau-tong-solar-battery-arrow-board-fire-60378641.md`
+
+Verified: Drainage Services Department; Yau Tong; Cha Kwo Ling Road.
+
+titles:
+
+"Solar battery blaze hits Yau Tong works arrow board."
+"Passing firefighters put out Cha Kwo Ling Road fire."
+"Drainage site fire leaves no injuries reported." description: "Firefighters passing Yau Tong extinguished a suspected solar-panel battery blaze on a Drainage Services Department roadworks arrow board; nobody was hurt."
+[tta_listen_btn]
+
+10th August 2026 - (Hong Kong) A suspected solar-panel battery fire broke out this evening on a roadworks directional arrow board inside a Drainage Services Department site on Cha Kwo Ling Road in Yau Tong, and passing firefighters put the blaze out before anyone was hurt.
+
+The alarm time was given as 6.32pm today, 10th August. The site sits on the carriageway opposite Exit B2 of Yau Tong Station. Staff there were using a solar-powered arrow board of the kind commonly placed to guide traffic around temporary works on busy urban roads.
+
+Witnesses and responders reported that a battery linked to the solar panel on the board appeared to catch fire, and an explosion-like sound was heard at one point. Firefighters who happened to be nearby heard the noise, went to investigate, found the fire and moved in at once to extinguish it on the open roadworks patch.
+
+They then notified Drainage Services Department staff to attend and follow up on the damaged equipment and site arrangements. No one was injured in the incident. Further enquiries have been put to the department for comment on the cause and any review of solar battery kit used on its Cha Kwo Ling Road works.
+
+Temporary solar lighting and signalling gear is widely used on roadside engineering projects across the city, including drainage jobs, because panels can keep arrow boards and lamps running without a permanent power hook-up. When batteries overheat or fail, the immediate risk is a localised fire at the equipment itself rather than a building blaze — yet the kit still sits close to moving traffic and pedestrians using the Yau Tong Station exits.
+
+Residents and motorists near Exit B2 would have seen firefighters at the carriageway works area while the board fire was tackled. Officials have not reported a wider traffic shutdown beyond the works already in place; the priority on scene was to kill the flames quickly and hand the site back for departmental follow-up.
+
+Until the department issues a fuller account, the confirmed picture remains tight but clear: a solar battery on a works arrow board at the Cha Kwo Ling Road drainage site, a possible explosive sound, a rapid response by firefighters already in the area at about 6.32pm, and a nil injury outcome after the fire was extinguished.
+
+Footer SEO keyword: yautongfire Meta description: Firefighters passing Yau Tong extinguished a suspected solar-panel battery blaze on a Drainage Services Department roadworks arrow board; nobody was hurt.
+Source: [HK01](https://www.hk01.com/article/60378641)
+

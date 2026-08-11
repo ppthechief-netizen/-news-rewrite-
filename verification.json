@@ -1,20 +1,15 @@
 {
-  "source_url": "https://www.hk01.com/article/60367408",
-  "checked_at": "2026-08-10",
+  "source_url": "https://www.hk01.com/article/60378614",
+  "checked_at": "2026-08-11",
   "names": [
-    {"chinese": "吳家聲", "english": "Ng Ka-sing"},
-    {"chinese": "葉芷清", "english": "Yip Tsz-ching"},
-    {"chinese": "張慧玲", "english": "Mrs Justice Judianna Barnes Wai-ling", "note": "Sentencing judge; SCMP/Standard court reporting"},
-    {"chinese": "傅家聰", "english": "Dr Foo Ka-chung", "note": "Government pathologist; SCMP/Bangkok Post trial coverage"},
-    {"chinese": "黃亞森", "english": "Wong Nga-sam", "note": "Street cleaner witness"},
-    {"chinese": "劉國仁", "english": "Lau Kwok-yan", "note": "Jogger witness"},
-    {"chinese": "蔡志朗", "english": "Tsoi Chi-long", "note": "Co-defendant; charges withdrawn 2023; SCMP 2022 remand report"},
-    {"chinese": "鄭沛雯", "english": "Cheng Pui-man"},
-    {"chinese": "陳穎康", "english": "Chan Wing-hong"}
+    {"chinese": "衛詩雅", "english": "Michelle Wai", "also": "Michelle Wai Sze-nga"},
+    {"chinese": "周祉安", "english": "Dr Kenley Chau", "note": "Husband; aesthetic / plastic-related doctor updates in English press"},
+    {"chinese": "狩謊", "english": "Lies Hunter"},
+    {"event": "Hundred Flowers Awards", "also": "Baihua Awards", "city": "Beijing"},
+    {"brand": "Chaumet Josephine jewellery"}
   ],
   "sources": [
-    "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359338/hong-kong-man-convicted-manslaughter-over-fatal-weight-loss-beating",
-    "https://www.scmp.com/news/hong-kong/law-and-crime/article/3176234/4-remanded-custody-connection-suspected-murder-hong",
-    "https://www.thestandard.com.hk/news/article/336492/Man-remanded-in-custody-for-fatal-weight-loss-beating-on-girlfriend"
+    "https://www.thestandard.com.hk/entertainment/article/338809/Michelle-Wai-receives-50-stitches-after-glass-accident-on-Eric-Tsangs-new-drama-set",
+    "https://malaysia.news.yahoo.com/dr-kenley-chau-updates-michelle-033400392.html"
   ]
 }
