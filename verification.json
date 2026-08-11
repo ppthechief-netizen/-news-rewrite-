@@ -1,15 +1,27 @@
 {
-  "source_url": "https://www.hk01.com/article/60378614",
-  "checked_at": "2026-08-11",
-  "names": [
-    {"chinese": "衛詩雅", "english": "Michelle Wai", "also": "Michelle Wai Sze-nga"},
-    {"chinese": "周祉安", "english": "Dr Kenley Chau", "note": "Husband; aesthetic / plastic-related doctor updates in English press"},
-    {"chinese": "狩謊", "english": "Lies Hunter"},
-    {"event": "Hundred Flowers Awards", "also": "Baihua Awards", "city": "Beijing"},
-    {"brand": "Chaumet Josephine jewellery"}
+  "source_url": "https://www.hk01.com/article/60378654",
+  "verified_names": [
+    {
+      "name": "Hong Kong Aircraft Engineering Company Limited",
+      "also_known_as": ["HAECO", "港機集團"],
+      "notes": "Official English company name; Swire Group MRO at Hong Kong International Airport.",
+      "sources": ["https://www.haeco.com/"]
+    },
+    {
+      "name": "North Lantau Hospital",
+      "chinese": "北大嶼山醫院",
+      "notes": "Hospital Authority English name; casualty destination for the worker.",
+      "sources": ["https://www.ha.org.hk/visitor/ha_hosp_details.asp?Content_ID=216546&Lang=ENG"]
+    },
+    {
+      "name": "Wong",
+      "chinese": "黃",
+      "notes": "Surname only in source; 43-year-old male cabin cleaner. Full given name not published."
+    }
   ],
-  "sources": [
-    "https://www.thestandard.com.hk/entertainment/article/338809/Michelle-Wai-receives-50-stitches-after-glass-accident-on-Eric-Tsangs-new-drama-set",
-    "https://malaysia.news.yahoo.com/dr-kenley-chau-updates-michelle-033400392.html"
-  ]
+  "key_facts": {
+    "time": "10.24am on 7th August 2026",
+    "cabin_temperature_celsius": 24,
+    "police_classification": "dead on arrival; Airport District Uniformed Patrol Sub-Unit Team 4"
+  }
 }
