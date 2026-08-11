@@ -1,0 +1,28 @@
+Verified: Ho Man-kit; Deloitte Touche Tohmatsu; Acting Judge Wai Lyman; DCCC1098/2025.
+
+titles:
+
+"Deloitte IT manager admits stealing 423 laptops."
+"Stock losses drove resales worth up to HK$1.2 million."
+"Judge warns jail almost unavoidable at August sentencing." description: "A Deloitte IT manager admitted stealing 423 laptops worth about HK$1.2 million and reselling them after stock losses; a judge warned jail is almost unavoidable."
+[tta_listen_btn]
+
+11th August 2026 - (Hong Kong) An information technology manager at Deloitte admitted stealing more than four hundred company laptops and reselling them for profit after stock trading wiped out his savings, and a judge warned that imprisonment is almost unavoidable when he is sentenced later this month.
+
+Ho Man-kit, 40, pleaded guilty at the District Court today to one count of theft in case DCCC1098/2025. He is accused of stealing 423 laptops belonging to Deloitte Touche Tohmatsu between September 2021 and 15th February 2023. Acting Judge Wai Lyman adjourned sentencing to 21st August and remanded him in custody, noting that a jail term is all but inevitable. Ho's counsel said he has no means to repay his employer.
+
+During the period, Ho managed Deloitte's information technology department and was responsible for newly purchased laptops stored in a company storeroom accessible only to his section. On the morning of 13th February 2023, staff conducting an inventory found 399 laptops missing and alerted the department director. The director asked the administrative director to monitor the room, and closed-circuit television showed Ho, who was on leave, entering the storeroom at about 7pm and packing several machines into cartons.
+
+Staff later intercepted Ho and the owner of a second-hand computer shop at a lift after the trader collected a carton holding ten Lenovo laptops and paid Ho in cash. About ten Lenovo machines were recovered. Two days later the department director met Ho, who admitted selling company laptops without consent from September 2021 to February 2023 and said stock investments had left him penniless. He wrote a confession letter acknowledging the unlawful sale of about 300 laptops to a recycler for profit.
+
+On 15th February 2023 the director accompanied Ho to a police station to surrender. Under caution he admitted selling Deloitte laptops for HK$800,000 to HK$1.2 million, mostly in cash with some bank transfers. He said a gambling habit led him to channel proceeds into a Futu brokerage account for shares, but the money was lost. He also admitted using his managerial role to conceal the thefts and selling unrecorded older laptops for about HK$600 each, though the figure of 300 units was an estimate because he kept no tally. Police later recovered 24 Deloitte laptops from the recycler.
+
+The recycler's owner told investigators Ho had sold laptops to him from 29th September 2021 to 13th February 2023, usually a few machines at a time and sometimes up to ten, for a total of HK$56,000, claiming Deloitte had authorised the sales. From April 2022 Ho supplied newer models, explaining that the firm had ordered the wrong models. On the night of 13th February 2023 the trader returned to Deloitte but was stopped by staff; he later received a refund from Ho. Bank records show deposits of about HK$458,000 from the trader and his company into Ho's account. The prosecution said the 423 stolen laptops were worth about HK$1.2 million.
+
+In mitigation, counsel said Ho faced pressure from his daughter's birth, his father's cancer and his wife's postnatal depression, and showed depressive symptoms without seeking treatment. His family was shocked because the conduct was out of character. He attempted suicide after the case emerged but abandoned the idea after concern from his wife, child and friends, then surrendered. Counsel accepted a breach of trust but said Ho did not flee, cooperated fully and saved investigative resources. A psychological report recorded adjustment disorder and anxiety. His wife has forgiven him, but the family cannot compensate Deloitte. Counsel asked the court to weigh his early guilty plea and remorse.
+
+
+Original published: 11th August 2026, 2.00pm HKT
+
+Footer SEO keyword: deloitte Meta description: A Deloitte IT manager admitted stealing 423 laptops worth about HK$1.2 million and reselling them after stock losses; a judge warned jail is almost unavoidable.
+Source: [HK01](https://www.hk01.com/article/60378857)

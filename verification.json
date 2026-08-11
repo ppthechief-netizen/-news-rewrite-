@@ -1,27 +1,32 @@
 {
-  "source_url": "https://www.hk01.com/article/60378654",
+  "source_url": "https://www.hk01.com/article/60378928",
   "verified_names": [
     {
-      "name": "Hong Kong Aircraft Engineering Company Limited",
-      "also_known_as": ["HAECO", "港機集團"],
-      "notes": "Official English company name; Swire Group MRO at Hong Kong International Airport.",
-      "sources": ["https://www.haeco.com/"]
+      "name": "Hong Kong-Zhuhai-Macau Bridge",
+      "chinese": "港珠澳大橋"
     },
     {
-      "name": "North Lantau Hospital",
-      "chinese": "北大嶼山醫院",
-      "notes": "Hospital Authority English name; casualty destination for the worker.",
-      "sources": ["https://www.ha.org.hk/visitor/ha_hosp_details.asp?Content_ID=216546&Lang=ENG"]
+      "name": "Government Flying Service",
+      "chinese": "政府飛行服務隊"
     },
     {
-      "name": "Wong",
-      "chinese": "黃",
-      "notes": "Surname only in source; 43-year-old male cabin cleaner. Full given name not published."
+      "name": "Marine Department",
+      "chinese": "海事處"
+    },
+    {
+      "name": "Marine Police",
+      "chinese": "水警",
+      "notes": "Hong Kong Police Force marine unit."
+    },
+    {
+      "name": "Shekou",
+      "chinese": "蛇口",
+      "location": "Shenzhen"
     }
   ],
   "key_facts": {
-    "time": "10.24am on 7th August 2026",
-    "cabin_temperature_celsius": 24,
-    "police_classification": "dead on arrival; Airport District Uniformed Patrol Sub-Unit Team 4"
+    "departure_time": "3.14pm on 11th August 2026",
+    "search_result_by_5pm": "no discovery",
+    "also_checked_4_40pm": "no discovery"
   }
 }

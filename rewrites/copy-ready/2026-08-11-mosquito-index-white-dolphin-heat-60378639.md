@@ -1,0 +1,23 @@
+Verified: Food and Environmental Hygiene Department; Hong Kong Observatory; Tropical Cyclone White Dolphin; Aedes albopictus.
+
+titles:
+
+"Mosquito indices plunge after White Dolphin heatwave."
+"Three districts hit zero on August trap survey."
+"Extreme heat weakens mosquitoes across the city." description: "August mosquito trap indices fell sharply after White Dolphin heat, with three districts at zero as extreme temperatures cut mosquito activity citywide."
+[tta_listen_btn]
+
+11th August 2026 - (Hong Kong) The first August batch of Aedes albopictus ovitrap indices shows a sharp citywide drop after peripheral sinking air from tropical cyclone White Dolphin delivered one of Hong Kong's hottest days on record, with three monitored areas recording a clean zero.
+
+Sinking air on the fringe of White Dolphin brought extreme heat on Sunday 9th August, when the Hong Kong Observatory headquarters in Tsim Sha Tsui hit 36.9 degrees Celsius — the hottest day in nearly 143 years of records. Showers linked to an upper-air disturbance are expected to increase by Friday 14th August and ease the heat a little. The Food and Environmental Hygiene Department today released the first August ovitrap and density figures for 10 surveillance areas.
+
+Kwun Tong's Yau Tong and Cha Kwo Ling, Fanling North in the North District, and Tsuen Wan West all recorded 0.0 per cent — meaning no adult Aedes mosquitoes were found in traps over the past week. The highest reading was Lai King at 9.8 per cent, followed by Upper Kwai Chung at 7.3 per cent, a contrast with recent months when double-digit scores were common in some areas. Tsuen Wan West had still stood at 8.5 per cent at the end of last month.
+
+The department's sixth July batch, published on 30th July, showed many districts above 10 per cent, with Cheung Sha Wan reaching 30.9 per cent. Comparing areas covered in both rounds — Tsuen Wan West, Lai Chi Kok, Sha Tin East and Fanling North — the fall is stark. Tsuen Wan West slid from 8.5 per cent to 0.0 per cent in about 10 days; Lai Chi Kok eased from 9.3 per cent to 5.4 per cent; Fanling North stayed unchanged; only Sha Tin East edged up from 5.0 per cent to 6.5 per cent.
+
+Infectious-disease specialists have long noted that mosquitoes thrive best between about 25 and 30 degrees Celsius. Above 35 degrees their activity weakens sharply, and from around 40 degrees survival becomes unlikely. Under extreme heat some insects die, while others retreat to cooler resting spots and wait before seeking hosts again. The life cycle runs through egg, larva, pupa and adult stages, with the first three tied to standing water; when outdoor temperatures soar, puddles evaporate faster and fewer insects complete development.
+
+July itself had been wet enough to favour breeding: the Observatory recorded 790.3 millimetres of rain at headquarters, more than double the normal 385.8 millimetres and the second-highest July total on record, while the mean temperature of 28.7 degrees sat close to the normal 28.9 degrees. District data for 9th August show that apart from four highland stations — Tai Mo Shan, Tate's Cairn, the Peak and Ngong Ping — every site topped 35 degrees, with Sheung Shui reaching 39.8 degrees, a level hostile to mosquito survival. Temperatures today were slightly lower than Sunday but still commonly above 35 degrees across districts.
+
+Footer SEO keyword: mosquito Meta description: August mosquito trap indices fell sharply after White Dolphin heat, with three districts at zero as extreme temperatures cut mosquito activity citywide.
+Source: [HK01](https://www.hk01.com/article/60378639)

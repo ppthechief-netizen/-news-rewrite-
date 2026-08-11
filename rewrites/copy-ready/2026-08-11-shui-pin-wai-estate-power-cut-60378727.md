@@ -1,0 +1,24 @@
+Verified: CLP Power Hong Kong; Shui Pin Wai Estate; Principal Lam.
+
+titles:
+
+"Shui Pin Wai Estate blackout wakes residents in heat."
+"Parents carry prams down stairs as lifts stop."
+"Kindergarten borrows nearby school after outage." description: "About 2,400 Yuen Long households lost power after a cable fault, forcing Shui Pin Wai Estate residents downstairs in the heat and a kindergarten to relocate."
+[tta_listen_btn]
+
+11th August 2026 - (Hong Kong) An underground cable fault in Yuen Long left about 2,400 households without electricity overnight, including most blocks at Shui Pin Wai Estate, where lifts stopped, air-conditioning died and families woke in stifling heat before CLP Power Hong Kong said supply should return by about 10am after emergency repairs.
+
+Residents said the outage struck in the small hours. Ms Chung recalled that once power failed her home's cooling cut out immediately, leaving the family sweating and her baby restless — sleeping in fits rather than sound rest. With lifts halted, she had to carry her infant in a pram plus personal belongings down the stairs, a climb she rarely makes. "Normally I don't walk stairs, and carrying things makes it harder physically, especially holding the pram — my arms and legs ache," she said. Relatives added bluntly: "No power, unbearably hot upstairs, so we came down fast."
+
+Unable to endure the heat indefinitely, they later struggled back upstairs with the pram to pack luggage and moved to stay with relatives. "It's too hot up there," Ms Chung said. At Wu Shui House's lakeside kindergarten, a full-day school with 105 enrolled pupils, Principal Lam said staff learned of the blackout this morning, contacted CLP and were told restoration would take time. After checking that another campus run by the same organisation still had power, the school immediately borrowed those premises as a contingency, notified parents through its platform and allowed flexible leave for children who could be cared for at home.
+
+By 9am more than twenty pupils had already arrived while teachers shifted desks, daily toys and storybooks to the temporary site. Principal Lam said that if electricity had not returned by noon, staff would also need to transport beds to arrange afternoon naps. Parents Mr and Mrs Ku praised the arrangement as "very good and convenient," noting some families still had to send children to class because adults could not stay home. Mrs Ku said they received notice around 7.50am about the estate outage. Another parent said a bulletin went out near 7am without disrupting the normal school start, calling the response impressive.
+
+Mrs Law said her estate block lost power around 5am, cutting air-conditioning and appliances; she kept a small fan blowing on her child, who kept complaining of the heat. A reporter on site also saw a newsstand drinks fridge dark and its owner sitting outside to cool off without a fan of his own. CLP crews were working to restore the circuit as residents weighed whether to wait out the morning indoors or seek shelter elsewhere until power returned.
+
+
+Original published: 11th August 2026, 9.54am HKT
+
+Footer SEO keyword: blackout Meta description: About 2,400 Yuen Long households lost power after a cable fault, forcing Shui Pin Wai Estate residents downstairs in the heat and a kindergarten to relocate.
+Source: [HK01](https://www.hk01.com/article/60378727)

@@ -1,26 +1,25 @@
-Verified: Hong Kong Aircraft Engineering Company Limited; HAECO; North Lantau Hospital; Hong Kong International Airport.
+Verified: Hong Kong-Zhuhai-Macau Bridge; Government Flying Service; Marine Department; Marine Police; Fire Services Department; Shekou.
 
 titles:
 
-"Cabin cleaner dies after collapsing at work on aircraft."
-"HAECO says cabin temperature was 24 degrees Celsius."
-"Airport police classify case as dead on arrival." description: "HAECO says a 43-year-old cabin cleaner collapsed at work aboard an aircraft at Hong Kong International Airport with the cabin held at 24 degrees Celsius."
+"Passenger feared overboard on bridge sightseeing trip."
+"Hong Kong launches sea and air search off Tuen Mun."
+"Crew found man missing after Shekou headcount." description: "Shekou sightseeing boat reported a missing male passenger after a bridge tour; Hong Kong rescue crews searched Tuen Mun waters by sea and air until 5pm."
 [tta_listen_btn]
 
-11th August 2026 - (Hong Kong) A 43-year-old cabin cleaner surnamed Wong died after collapsing while cleaning a passenger aircraft at Hong Kong International Airport last Friday morning, Hong Kong Aircraft Engineering Company Limited has confirmed.
+11th August 2026 - (Hong Kong) Hong Kong rescue crews searched Tuen Mun waters by boat and helicopter this afternoon after a Shenzhen sightseeing vessel reported a male passenger missing following a trip towards the Hong Kong-Zhuhai-Macau Bridge, with no discovery by 5pm.
 
-At 10.24am on 7th August the man boarded an airliner cabin for cleaning work and suddenly fainted. Colleagues discovered him and raised the alarm at once. Rescue crews found Mr Wong still unconscious and took him by ambulance to North Lantau Hospital for emergency treatment, where he was later pronounced dead.
+The incident unfolded when a tour boat left Shekou at 3.14pm for a sightseeing run around the bridge area before turning back to the Shenzhen port. On arrival, staff conducting a headcount found one male passenger unaccounted for. The operator reviewed closed-circuit television and formed the suspicion that he had gone overboard during the voyage, though no crew member was quoted as seeing the fall.
 
-Police classified the case as dead on arrival and assigned it to the Airport District Uniformed Patrol Sub-Unit Team 4 for follow-up. The worker was employed by HAECO, the airport maintenance group commonly known by that short name and formally styled Hong Kong Aircraft Engineering Company Limited.
+Because the believed fall happened close to Hong Kong waters, local authorities joined the search. Firefighters and ambulance personnel mustered at the Tuen Mun fireboat pier and put to sea in a fireboat to sweep the waters off Tuen Mun. The Marine Police, the Marine Department and a Government Flying Service helicopter took part in a coordinated air-and-sea effort.
 
-HAECO said it was deeply saddened by the death of its colleague. He became unwell and lost consciousness while carrying out cabin cleaning on an aircraft at Hong Kong International Airport. The company said the cabin temperature was maintained at 24 degrees Celsius when the incident happened — a figure that answers one immediate question about heat inside the aircraft without settling the medical cause of death.
+By 5pm the teams had not located the man. An earlier sighting check at 4.40pm had likewise drawn a blank, leaving the search running into the late afternoon without a confirmed recovery or further identification of the passenger.
 
-He was taken to hospital but later died. HAECO extended deep condolences to his family, friends and colleagues, adding that the matter is under investigation and that the group is actively cooperating with the relevant departments. It would make no further comment at this stage. No aircraft registration, airline customer or medical diagnosis was released with the company's reply.
+The case turns on a headcount at the pier rather than a witness on deck: the company inferred a fall from CCTV after the man failed to disembark with the rest of the party. How he left the vessel — and whether he entered the water inside Hong Kong's zone — will matter for which agency leads any follow-up once the search ends.
 
-Cabin cleaning is turnaround work finished between flights in confined aisles and galleys, often under tight ground-time pressure. When a worker collapses on duty, the public record so far runs from the 10.24am boarding and faint, through the colleague alert and ambulance transfer, to the hospital confirmation and the police dead-on-arrival classification.
+Sightseeing runs from Shekou to the bridge have become a routine tourist loop, but open decks and moving craft always carry man-overboard risk. Today's response — fireboat from Tuen Mun, police launches, marine officers and a helicopter tracked on flight radar over the harbour approaches — shows how quickly a missing-passenger report near the boundary triggers a cross-border-flavoured rescue even when the boat itself is mainland-operated.
 
-Until the inquiry concludes, HAECO's public statement remains limited to the collapse during cabin cleaning, the confirmed 24-degree cabin temperature, its condolences and its cooperation with investigators — leaving unanswered why a worker in a temperature-controlled cabin lost consciousness and did not survive.
+Until the man is found or the search is scaled back, the public record is limited to timing, the Shekou departure and return, the CCTV suspicion, and an empty result at sea by late afternoon off Tuen Mun.
 
-Footer SEO keyword: cabindeath Meta description: HAECO says a 43-year-old cabin cleaner collapsed at work aboard an aircraft at Hong Kong International Airport with the cabin held at 24 degrees Celsius.
-Credit: HK01 — original reporting.
-Source: [HK01](https://www.hk01.com/article/60378654)
+Footer SEO keyword: overboard Meta description: Shekou sightseeing boat reported a missing male passenger after a bridge tour; Hong Kong rescue crews searched Tuen Mun waters by sea and air until 5pm.
+Source: [HK01](https://www.hk01.com/article/60378928)

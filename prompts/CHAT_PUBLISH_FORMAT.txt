@@ -1,0 +1,17 @@
+Chat publish format (paste each rewrite in chat like this):
+
+{Short title from first title} — {h.mmam/pm} HKT
+Verified: Name One; Name Two.
+
+titles:
+
+"Title one." "Title two." "Title three." description: "{140-160 chars}" [tta_listen_btn]
+
+{ordinal date} - ({City}) {lede…}
+
+{blank-line separated body paragraphs}
+
+Original published: {ordinal date}, {h.mmam/pm} HKT
+
+Footer SEO keyword: {keyword} Meta description: {140-160 chars} Source: [HK01](https://www.hk01.com/article/{id})
+# If exclusive, include: Credit: HK01 — original reporting. before Source
