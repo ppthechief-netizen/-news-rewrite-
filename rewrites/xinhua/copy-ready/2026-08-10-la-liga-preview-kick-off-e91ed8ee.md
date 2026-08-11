@@ -1,0 +1,34 @@
+Verified: Jose Mourinho; Diego Simeone; Manuel Pellegrino.
+
+titles:
+
+"La Liga returns with title race and survival fights."
+"Madrid and Barcelona lead as relegation battle looms."
+"Mourinho's signings shape a crowded Spanish table." description: "La Liga kicks off next weekend with Barcelona and Real Madrid favoured for the title while mid-table clubs face fierce battles for Europe and survival."
+[tta_listen_btn]
+
+10th August 2026 - (Madrid) As La Liga kicks off next weekend, the traditional big three of FC Barcelona, Real Madrid and Atletico Madrid will again look to dominate, while the rest of the table appears set for fierce battles both to qualify for Europe and avoid relegation.
+
+What made last season so tense in Spain's top flight was not the title race, which Barcelona won comfortably ahead of Real Madrid, but the battle to stay up. Girona and Mallorca were unfortunate to go down with 41 and 42 points respectively, tallies that would often be enough for survival, while only four points separated 10th-placed Real Sociedad on 46 points from Mallorca in the relegation zone.
+
+Teams such as Osasuna, Sevilla, Elche, Alaves and even Athletic Bilbao all spent time looking over their shoulders, as a run of two or three games without a win could turn European ambitions into a relegation battle. That compressed mid-table picture is likely to define the new campaign as much as the headline pursuit of the championship.
+
+As the new season begins, some clubs look better prepared than others. Real Madrid and Barcelona appear likely to contest the title again, with Madrid perhaps holding an early edge after an active summer in the transfer market. Jose Mourinho arrived in June and the club moved quickly to sign defenders Ibrahima Konate, Marc Cucurella and Denzel Dumfries, while Bernardo Silva arrived from Manchester City, Yan Diomande became the club's record signing from RB Leipzig and Carlos Espi looks to be one of Spain's most promising young strikers.
+
+Mourinho should give his side greater defensive solidity, while the pace of Kylian Mbappe, Vinicius Jr and Diomande could make Madrid particularly dangerous on the counterattack. Barcelona has been slower in the market despite signing Anthony Gordon and Karim Adeyemi. The departures of Robert Lewandowski, Marcus Rashford, Joao Cancelo and Ronald Araujo leave work to do before the window closes. Still, with Lamine Yamal, Pedri, Pau Cubarsi, Raphinha and Joan Garcia, Barca retains enough quality to challenge for the title.
+
+Pressure is mounting on Diego Simeone at Atletico Madrid after two summers of heavy spending without silverware, with Atletico finishing fourth last season behind Villarreal. Much depends on the future of forward Julian Alvarez, who is a target for Barcelona, although Atletico appears determined to resist any move. New arrivals Alex Grimaldo, Lee Kang-in and Morten Hjulmand strengthen the squad, but further business may be needed if Alvarez leaves for a substantial fee.
+
+Villarreal's main move has been to bring in young coach Inigo Perez after his impressive work at Rayo Vallecano, as the east coast club looks to build on last season's excellent third-place finish. Villarreal will aim for another top-four finish and a significant improvement on the solitary point it collected in last season's Champions League. Real Betis also returns to the Champions League, and coach Manuel Pellegrino will know the strain that continental competition can place on domestic form as the club strengthens its squad.
+
+Elsewhere, Celta Vigo can be expected to continue playing attractive football under coach Claudio Giraldez, while Real Sociedad should also challenge for a European place after winning last season's Copa del Rey. Athletic Bilbao will hope the arrival of former Borussia Dortmund coach Edin Terzic can reinvigorate a side that looked jaded in Ernesto Valverde's final campaign in charge.
+
+Getafe overperformed last season and remains difficult to beat, although the departures of Juan Iglesias, Luis Milla and Mauro Arambarri will be difficult to compensate for. Valencia finished ninth but continues to face off-field problems and currently looks weaker on paper than it did a year ago. Elche has lost coach Eder Sarabia and players including Alvaro Rodriguez, Andre Silva and Aleix Febas, who joined Celta, and will have to dig deep to survive.
+
+Benat San Jose also faces a difficult task in repeating Inigo Perez's achievements at Rayo Vallecano, whose off-field problems could prove a distraction, with the club currently unable to play at its Vallecas Stadium. Luis Miguel Ramis makes his La Liga coaching debut with Osasuna and also appears to have a difficult task after losing winger Victor Munoz to Liverpool, while Sevilla's ongoing financial problems seem to have left Luis Garcia with a weaker squad than the one that struggled last season.
+
+The promoted trio of Racing Santander, Deportivo de A Coruna and Malaga are set to play in front of packed stadiums. Malaga will lean heavily on its youth system, Deportivo has spent to strengthen its survival chances, while Racing, coached by Jose Alberto Lopez, will look to attack but must tighten its defence to avoid an immediate return to the second tier.
+
+Footer SEO keyword: laliga Meta description: La Liga kicks off next weekend with Barcelona and Real Madrid favoured for the title while mid-table clubs face fierce battles for Europe and survival.
+Source: [Xinhua](https://english.news.cn/20260810/e91ed8ee0f0447e1a75c9b22452d9dae/c.html)
+Original published: 2026-08-10 21:08:15
